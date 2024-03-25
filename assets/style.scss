@@ -13,7 +13,7 @@
 /* BASE RULES */
 /**************/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+//@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 html {
   font-size: 100%;
@@ -22,7 +22,7 @@ html {
 
 body {
   background: #fff;
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Roboto", -system-ui, -apple-system, BlinkMacSystemFont, Helvetica, Arial, "Segoe UI", sans-serif;
   color: #404040;
   line-height: 1.7;
   font-weight: 400;
@@ -32,20 +32,31 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
+  max-width: 960px; //740px;
+  padding: 0 1em;
   width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Roboto", -system-ui, -apple-system, BlinkMacSystemFont, Helvetica, Arial, "Segoe UI", sans-serif;
   color: $darkerGray;
-  font-weight: bold;
+  font-weight: 500;
 
   line-height: 1.7;
-  margin: 1em 0 15px;
+  max-width: 740px;
+  margin: 1em 0 1em;
   padding: 0;
-  text-align: center;
+  //text-align: center;
+
+  em {
+    color: #b60011;
+    font-style: normal
+  }
+
+  span {
+    font-weight: 300;
+    font-size: 24px;
+  }
 
   @include mobile {
     line-height: 1.4;
@@ -53,9 +64,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 36px;
   a {
     color: inherit;
+  }
+  @include mobile {
+    font-size: 30px
   }
 }
 
@@ -63,20 +77,31 @@ h2 {
   font-size: 24px;
 }
 
-@media (min-width: 769px){
-	.post h2::before, .post h2::after {
-	    content: "";
-	    display: inline-block;
-	    vertical-align: middle;
-	    width: 46px;
-	    height: 1px;
-	    background: rgb(192, 211, 218);
-	    margin: 0px 30px;
-	}
+#main {
+  h1,h2,h3,h4 {
+    line-height: 1.25;
+    letter-spacing: -.5px
+  }
+  h1 {
+    line-height: 1.15
+  }
 }
+
+// @media (min-width: 769px){
+// 	h2::before, h2::after {
+// 	    content: "";
+// 	    display: inline-block;
+// 	    vertical-align: middle;
+// 	    width: 46px;
+// 	    height: 1px;
+// 	    background: rgb(192, 211, 218);
+// 	    margin: 0px 30px;
+// 	}
+// }
 
 h3 {
   font-size: 20px;
+  font-style: italic;
 }
 
 h4 {
@@ -177,11 +202,20 @@ span[data-pullquote]:before {
 }
 
 a {
-  color: $blue;
+  color: #b60011;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: #e60118;
+  }
+}
+
+#main a {
+  border-bottom: 2px solid #ddd;
+
+  &:hover, &:active {
+    color: #e60118;
+    border-color: #aaa;
   }
 }
 
@@ -211,7 +245,7 @@ em, i {
 }
 
 strong, b {
-  font-weight: bold;
+  font-weight: 500;
 }
 
 img {
@@ -270,7 +304,7 @@ p > img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 3px solid $lightGray;
 
   @include mobile {
     text-align: center;
@@ -311,10 +345,9 @@ p > img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
+  font-family: "Roboto", -system-ui, -apple-system, BlinkMacSystemFont, Helvetica, Arial, "Segoe UI", sans-serif;
+  font-weight: 500;
   font-size: 28px;
-  letter-spacing: 1px;
   text-align: left;
 
   @include mobile {
@@ -335,7 +368,7 @@ p > img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: "Roboto", -system-ui, -apple-system, BlinkMacSystemFont, Helvetica, Arial, "Segoe UI", sans-serif;
   font-size: 18px;
 
   @include mobile {
@@ -350,11 +383,15 @@ nav {
     color: $darkGray;
     text-align: right;
     font-weight: 300;
-    letter-spacing: 1px;
+    padding-bottom: 2px;
+  
+    &:hover {
+      color: #e60118;
+      border-bottom: 2px solid #ddd;
+    }
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
     }
   }
 }
@@ -437,7 +474,7 @@ body:after {
 }
 
 #bar {
-    background: #000;
+    background: #b60011;
     height: 7px;
     background-size: cover;
     background-position: left 60%;
@@ -448,32 +485,28 @@ body:after {
     z-index: 1000;
 }
 
-.post h1{
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  text-align: center;
-  font-weight: bold;
+.post h1 {
+  font-family: "Roboto", -system-ui, -apple-system, BlinkMacSystemFont, Helvetica, Arial, "Segoe UI", sans-serif;
+  font-weight: 500;
   font-kerning: auto;
   font-feature-settings: "kern","liga","dlig","hlig","cswh";
   line-height: 1.2;
 }
 
-.page h1{
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  text-align: center;
-  font-weight: bold;
+.page h1 {
+  font-family: "Roboto", -system-ui, -apple-system, BlinkMacSystemFont, Helvetica, Arial, "Segoe UI", sans-serif;
+  font-weight: 500;
   font-kerning: auto;
   font-feature-settings: "kern","liga","dlig","hlig","cswh";
   line-height: 1.2;
 }
 
 .author_title{
-  text-align: center;
   color: #939aa1;
   letter-spacing: 2px;
 }
 
 .post_date{
-  text-align: center;
   color: #939aa1;
 }
 
@@ -630,7 +663,7 @@ Modules - reusable parts of our design
 }
 
 #carbonads {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", -system-ui, -apple-system, BlinkMacSystemFont, Helvetica, Arial, "Segoe UI", sans-serif;
   display: inline-block;
   overflow: hidden;
   max-width: 270px;
@@ -726,6 +759,15 @@ Modules - reusable parts of our design
 
 .pagination {
   text-align: center;
+}
+
+hr {
+  clear: both;
+  margin: 1.5em 0;
+  border: 0;
+  height: 1px;
+  background: $lightGray;
+
 }
 
 @media only screen and (min-width: 320px) and (max-width: 759px) {
