@@ -4,9 +4,8 @@ title: The team
 permalink: /team/
 ---
 
-Our team consists of ...
-
-----
+* TOC 
+{:toc}
 
 ## Matthew Waddington (Project Lead)
 
