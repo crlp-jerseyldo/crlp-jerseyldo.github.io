@@ -253,9 +253,14 @@ img {
 }
 
 p > img {
+  max-width: 75%;
   text-align: center;
   display: block;
   margin: 0 auto;
+
+  @include mobile {
+    max-width: 100%
+  }
 }
 
 // Fixes images in popup boxes from Google Translate
