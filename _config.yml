@@ -6,7 +6,7 @@
 name: CRLP
 
 # Name of the author
-# author: 
+author: Jersey LDO
 
 # Short bio or description (displayed in the header)
 description: "@ Jersey LDO"
@@ -31,7 +31,7 @@ footer-links:
 # Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
 # Used for Sitemap.xml and your RSS feed
 url: http://crlp-jerseyldo.github.io
-enforce_ssl: http://crlp-jerseyldo.github.io
+enforce_ssl: https://crlp-jerseyldo.github.io
 
 #
 # !! You don't need to change any of the configuration flags below !!

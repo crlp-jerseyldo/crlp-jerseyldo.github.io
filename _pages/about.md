@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-[Bring in stuff from the current home page?]
+[Make homepage shorter, and move stuff to here?]
