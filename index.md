@@ -4,7 +4,7 @@ layout: default
 
 # <span>Welcome to the</span> <br><em>Computer-Readable Legislation Project</em> (CRLP)
 
-At the States of Jersey’s [**Legislative Drafting Office**](https://www.gov.je/Government/NonexecLegal/StatesGreffe/Pages/LegislativeDraftingOffice.aspx) (LDO) we have a 2-year Computer-Readable Legislation Project (part of the global “Rules as Code” initiative).
+At the States of Jersey’s [**Legislative Drafting Office**](https://www.gov.je/Government/NonexecLegal/StatesGreffe/Pages/LegislativeDraftingOffice.aspx){:target="_blank"} (LDO) we have a 2-year Computer-Readable Legislation Project (part of the global “Rules as Code” initiative).
 
 ## What is it about?
 
