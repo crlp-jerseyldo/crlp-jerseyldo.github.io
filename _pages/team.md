@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The team
-permalink: /our-team/
+permalink: /team/
 ---
 
 Our team consists of ...
