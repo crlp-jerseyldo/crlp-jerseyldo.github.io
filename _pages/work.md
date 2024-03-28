@@ -4,13 +4,40 @@ title: Our work
 permalink: /work/
 ---
 
-**This page is under construction.**
+**This page is being updated.** You can find a full archive on OSF: <https://osf.io/yzf6x/>{:target="_blank"}.
 
-For now, please check out our project page on the Open Science Foundation website: <https://osf.io/yzf6x/>{:target="_blank"}.
+----
+
+Our work is split into 4 main streams: 
+
+## Artificial Intelligence and legislation
+
+Using machine learning to aid the identification of definitions and logical structures within legislation.
+
+## Non-technical guidance & training for drafters
+
+Taking insights from the practice of digitisation to help improve the logical rigour of drafts.
+
+## “Common Legislative Solutions”
+
+Parsing & digitising model provisions to produce a Jersey-specific version of CLS.
+
+## Parsing exercises
+
+Producing imaginary & real examples of provisions formalised with different forms of mark-up, as well as in Mermaid, QnA & Excel, and possibly in DataLex, L4 and Blawx.
+
+
+
+
 
 <!---
 
-Our work is split into 4 streams: [Stream 1](#stream-1-lorem-ipsum), [Stream 2](#stream-2-dolor-sit-amet), [Stream 3](#stream-3-consectetur-adipiscing) and [Stream 4](#stream-4-dolor-sit-amet).
+Parsing exercises – the imaginary & real examples we have been working on – we will post versions with different forms of mark-up, and in Mermaid, QnA & Excel, and possibly in DataLex, L4 and Blawx (see our previous newsletter)
+
+
+
+
+[Stream 1](#stream-1-lorem-ipsum), [Stream 2](#stream-2-dolor-sit-amet), [Stream 3](#stream-3-consectetur-adipiscing) and [Stream 4](#stream-4-dolor-sit-amet).
 
 ----
 
