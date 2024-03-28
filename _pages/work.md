@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Our work
-permalink: /our-work/
+permalink: /work/
 ---
 
 Our work is split into 4 streams: [Stream 1](#stream-1-lorem-ipsum), [Stream 2](#stream-2-dolor-sit-amet), [Stream 3](#stream-3-consectetur-adipiscing) and [Stream 4](#stream-4-dolor-sit-amet).
