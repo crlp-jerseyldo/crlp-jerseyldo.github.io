@@ -33,10 +33,20 @@ Joining the CRLP felt like a natural step in my quest to contribute to this evol
 
 ![Photo of Laurence Diver](/images/crlp-laurence.jpg){:.avatar}
 
-[laurencediver.net](https://laurencediver.net){:target="_blank"}
+[laurencediver.net](https://laurencediver.net){:target="_blank"} &bull; [LinkedIn](https://www.linkedin.com/in/laurencediver/){:target="_blank"}
 
 Dr Laurence Diver has worked at the intersection of Rules as Code, web technologies and legal theory for a number of years. Most recently he was senior researcher in the 5-year project [COHUBICOL](https://cohubicol.com){:target="_blank"} (Counting as a Human Being in the Era of Computational Law), where he also co-founded the [*Journal of Cross-disciplinary Research in Computational Law*](https://journalcrcl.org){:target="_blank"} with Prof. Mireille Hildebrandt. 
 
 He holds PhD, LLM, and LLB degrees from the University of Edinburgh, as well as diplomas in legal practice and software development. Before his PhD he was a full stack web developer, a research assistant at the Universities of Edinburgh and Strathclyde, and a legal assistant at the Scottish Law Commission.
 
 His work at the crossover of design, democracy and the Rule of Law is reflected in a range of [publications](https://laurencediver.net/publications-and-presentations/){:target="_blank"} and open-access book, [*Digisprudence: Code as Law Rebooted*](https://edinburghuniversitypress.com/book-digisprudence-code-as-law-rebooted.html){:target="_blank"} (Edinburgh University Press 2022).
+
+----
+
+## Margaux McQuilton
+
+![Photo of Margaux McQuilton](/images/crlp-margaux.png){:.avatar}
+
+[LinkedIn](https://www.linkedin.com/in/margaux-mcquilton-471302254/){:target="_blank"} 
+
+Margaux McQuilton worked for the project as an intern at various times from June 2023 to March 2024, while studying a double degree in English and French law at Jersey's Institute of Law and Toulouse University. Her main work was on parsing imaginary and real legislative provisions for if-then, and feeding that into Mermaid, QnA, Excel & DataLex. In December 2023 she ran an event "The future of AI & Law", bringing together computing students & law students to work on ways to digitise examples of legislation. In early 2024 she organised an ELSA essay competition on AI and law, and she has made the [shortlist for the Jersey TechAwards](https://twitter.com/InstofLawJersey/status/1757399603832406368 "https://twitter.com/instoflawjersey/status/1757399603832406368"){:target="_blank"} in April 2024.
