@@ -9,9 +9,11 @@ permalink: /team/
 
 ## Matthew Waddington (Project Lead)
 
-![Photo of Matthew Waddington](/images/crlp-waddington.jpg){:.avatar}
+![Photo of Matthew Waddington](/images/crlp-matthew.png){:.avatar}
 
-Lorem ipsum dolor sit amet consectetur adispicing elit. Proin lobortis non leo vel fringilla. Donec semper lobortis ipsum. Mauris tempor et nulla ac consectetur. Aenean tempor efficitur dolor, vitae maximus erat. Quisque quis molestie metus. Morbi hendrerit metus vitae tellus ornare venenatis. Nulla iaculis nisl nec lobortis mattis.
+[linktr.ee/MatthewWaddington](https://linktr.ee/MatthewWaddington){:target="_blank"}
+
+Hello -- I am a legislative drafter working half time on the Computer-Readable Legislation Project. I attended the European University Institute’s summer school on law and logic in 2018, because for a long time I had had a nagging feeling that legislative drafters and logicians have more in common than we realise. After that I took an interest in the “Rules as Code” movement which was just starting in New Zealand and then spread to Australia and worldwide. My main concern is to bring the perspective of legislative drafters  to computational law and Rules as Code (particularly the legislative drafters in Commonwealth countries, where we now share a rigorous approach to drafting). I aim to ensure that legislative drafters (and the people who make law and are subject to it) can benefit from the opportunities that technology is offering, as well as the insights that logic and computing can offer into how we can sharpen the discipline of our drafting. I have spoken at events for the Commonwealth Association of Legislative Counsel and elsewhere, and written for CALC’s journal “The Loophole” and other publications. I have also been teaching part time at Jersey’s Institute of Law, particularly on how to read legislation, as well as in modules on public law and jurisprudence. Previously I was deputy head of Jersey’s Legislative Drafting Office, and I worked as a legislative drafter in the UK’s Overseas Territory in Cyprus from 2004 (which means I have drafted for both entry to and exit from the EU). Before that I worked in England at the Law Commission, a university, community law centres and a private practice legal aid firm, after qualifying as a solicitor in 1990 (now non-practising).
 
 ----
 
@@ -35,11 +37,11 @@ Joining the CRLP felt like a natural step in my quest to contribute to this evol
 
 [laurencediver.net](https://laurencediver.net){:target="_blank"} &bull; [LinkedIn](https://www.linkedin.com/in/laurencediver/){:target="_blank"}
 
-Dr Laurence Diver has worked at the intersection of Rules as Code, web technologies and legal theory for a number of years. Most recently he was senior researcher in the 5-year project [COHUBICOL](https://cohubicol.com){:target="_blank"} (Counting as a Human Being in the Era of Computational Law), where he also co-founded the [*Journal of Cross-disciplinary Research in Computational Law*](https://journalcrcl.org){:target="_blank"} with Prof. Mireille Hildebrandt. 
+I have worked at the intersection of technology, design and legal & regulation theory for close to a decade now, with my focus shifting towards Rules as Code since 2020. Most recently I was senior researcher in the 5-year project [COHUBICOL](https://cohubicol.com){:target="_blank"} (Counting as a Human Being in the Era of Computational Law), where I co-founded the [*Journal of Cross-disciplinary Research in Computational Law*](https://journalcrcl.org){:target="_blank"} with Prof. Mireille Hildebrandt. 
 
-He holds PhD, LLM, and LLB degrees from the University of Edinburgh, as well as diplomas in legal practice and software development. Before his PhD he was a full stack web developer, a research assistant at the Universities of Edinburgh and Strathclyde, and a legal assistant at the Scottish Law Commission.
+I hold PhD, LLM, and LLB degrees from the University of Edinburgh, as well as diplomas in legal practice and software development. Before embarking on a PhD I was a full stack web developer, a research assistant at the Universities of Edinburgh and Strathclyde, and a legal assistant at the Scottish Law Commission.
 
-His work at the crossover of design, democracy and the Rule of Law is reflected in a range of [publications](https://laurencediver.net/publications-and-presentations/){:target="_blank"} and open-access book, [*Digisprudence: Code as Law Rebooted*](https://edinburghuniversitypress.com/book-digisprudence-code-as-law-rebooted.html){:target="_blank"} (Edinburgh University Press 2022).
+My work at the crossover of design, democracy and the Rule of Law is reflected in a range of [publications](https://laurencediver.net/publications-and-presentations/){:target="_blank"} and open-access book [*Digisprudence: Code as Law Rebooted*](https://edinburghuniversitypress.com/book-digisprudence-code-as-law-rebooted.html){:target="_blank"} (Edinburgh University Press 2022).
 
 ----
 
