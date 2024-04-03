@@ -41,7 +41,7 @@ I have worked at the intersection of technology, design and legal & regulation t
 
 I hold PhD, LLM, and LLB degrees from the University of Edinburgh, as well as diplomas in legal practice and software development. Before embarking on a PhD I was a full stack web developer, a research assistant at the Universities of Edinburgh and Strathclyde, and a legal assistant at the Scottish Law Commission.
 
-My work at the crossover of design, democracy and the Rule of Law is reflected in a range of [publications](https://laurencediver.net/publications-and-presentations/){:target="_blank"} and open-access book [*Digisprudence: Code as Law Rebooted*](https://edinburghuniversitypress.com/book-digisprudence-code-as-law-rebooted.html){:target="_blank"} (Edinburgh University Press 2022).
+My work at the crossover of design, democracy and the Rule of Law is reflected in a range of [publications](https://laurencediver.net/publications-and-presentations/){:target="_blank"} and my open-access book [*Digisprudence: Code as Law Rebooted*](https://edinburghuniversitypress.com/book-digisprudence-code-as-law-rebooted.html){:target="_blank"} (Edinburgh University Press 2022).
 
 ----
 
