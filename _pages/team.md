@@ -37,7 +37,7 @@ Joining the CRLP felt like a natural step in my quest to contribute to this evol
 
 [laurencediver.net](https://laurencediver.net){:target="_blank"} &bull; [LinkedIn](https://www.linkedin.com/in/laurencediver/){:target="_blank"}
 
-I have worked at the intersection of technology, design and legal & regulation theory for close to a decade now, with my focus shifting towards Rules as Code since 2020. Most recently I was senior researcher in the 5-year project [COHUBICOL](https://cohubicol.com){:target="_blank"} (Counting as a Human Being in the Era of Computational Law), where I co-founded the [*Journal of Cross-disciplinary Research in Computational Law*](https://journalcrcl.org){:target="_blank"} with Prof. Mireille Hildebrandt. 
+I have worked at the intersection of technology, design and legal & regulation theory for close to a decade now, with my focus shifting towards Rules as Code since 2020. Most recently I was senior researcher in the 5-year project [COHUBICOL](https://cohubicol.com){:target="_blank"} (Counting as a Human Being in the Era of Computational Law), where I worked on the interface between legal theory and computation and I co-founded the [*Journal of Cross-disciplinary Research in Computational Law*](https://journalcrcl.org){:target="_blank"} with Prof. Mireille Hildebrandt. 
 
 I hold PhD, LLM, and LLB degrees from the University of Edinburgh, as well as diplomas in legal practice and software development. Before embarking on a PhD I was a full stack web developer, a research assistant at the Universities of Edinburgh and Strathclyde, and a legal assistant at the Scottish Law Commission.
 
