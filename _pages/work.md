@@ -8,21 +8,21 @@ permalink: /work/
 
 ----
 
-Our work is split into 4 main streams: 
+Our work is split into 4 main streams. Click a title for more information. 
 
-## 1. Artificial Intelligence and legislation
+## 1. [Artificial Intelligence and legislation](/work/artificial-intelligence-and-legislation)
 
 Using machine learning to aid the identification of definitions and logical structures within legislation.
 
-## 2. Non-technical guidance & training for drafters
+## 2. [Non-technical guidance & training for drafters](/work/guidance-for-drafters)
 
 Taking insights from the practice of digitisation to help improve the logical rigour of drafts.
 
-## 3. “Common Legislative Solutions”
+## 3. [“Common Legislative Solutions”](/work/common-legislative-solutions)
 
 Parsing & digitising model provisions to produce a Jersey-specific version of CLS.
 
-## 4. Parsing exercises
+## 4. [Parsing exercises](/work/parsing-exercises)
 
 Producing imaginary & real examples of provisions formalised with different forms of mark-up, as well as in Mermaid, QnA & Excel, and possibly in DataLex, L4 and Blawx.
 

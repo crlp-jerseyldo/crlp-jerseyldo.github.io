@@ -117,6 +117,27 @@ p {
   margin: 15px 0;
 }
 
+p.breadcrumb {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #bbb;
+  
+  a {
+    font-weight: 500;
+    border: 0 !important;
+    opacity: .66;
+
+    &:hover {
+      opacity: 1;
+      border-bottom: 2px solid #ddd !important;
+    }
+  }
+
+  & + h1 {
+    margin-top: 0;
+  }
+}
+
 table {
 	padding: 0;
 }

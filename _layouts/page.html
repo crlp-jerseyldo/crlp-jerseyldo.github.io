@@ -4,6 +4,12 @@ layout: default
 
 <article class="page">
 
+  {% if page.parent %}
+  <p class="breadcrumb">
+    <a href="{{ page.parent_url }}">{{ page.parent }}</a> &rsaquo;
+  </p>
+  {% endif %}
+
   <h1>{{ page.title }}</h1>
 
   <div class="entry">
