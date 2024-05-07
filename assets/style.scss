@@ -268,6 +268,21 @@ img {
     margin-top: 2em;
     margin-bottom: 2em;
   }
+
+  &.frame {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 2px #a9ccf5;
+  }
+
+  & + em {
+    display: block;
+    position: relative;
+    margin-top: -1.33em;
+    text-align: center;
+    font-size: 16px;
+  }
 }
 
 p > img {

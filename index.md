@@ -9,4 +9,7 @@ At the States of Jersey’s [Legislative Drafting Office](https://www.gov.je/Gov
 For more, see [**About the project**](/about), [**Our work**](/work), and the [**Team**](/team). We also have a [**Substack blog**](https://digitallegislation.substack.com){:target="_blank"}.
 
 
-![A diagram showing the if-this-then-that structure of a piece of legislation](/images/ifttt-example.png){:.my-l}
+![A diagram showing the if-this-then-that structure of a piece of legislation](/images/ifttt-example.png){:.my-l} *If-this-then structure of a provision*
+
+![A highlighted offence provision showing its component parts](/images/highlighted-provision.png){:.my-l.frame} *Tagged components of an offence provision*
+

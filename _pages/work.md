@@ -26,6 +26,8 @@ Parsing & digitising model provisions to produce a Jersey-specific version of CL
 
 Producing imaginary & real examples of provisions formalised with different forms of mark-up, as well as in Mermaid, QnA & Excel, and possibly in DataLex, L4 and Blawx.
 
+![Animation showing basic highlighting of a provision](/images/basic-highlighting.gif){:.my-l.frame} *Animation showing basic highlighting of an offence provision*
+
 
 
 
