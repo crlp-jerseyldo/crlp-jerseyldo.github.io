@@ -4,7 +4,7 @@ title: Our work
 permalink: /work/
 ---
 
-**This page is being updated.** You can find a full archive on OSF: <https://osf.io/yzf6x/>{:target="_blank"}.
+**These pages are being updated.** You can find a full archive on OSF: <https://osf.io/yzf6x/>{:target="_blank"}.
 
 ----
 
