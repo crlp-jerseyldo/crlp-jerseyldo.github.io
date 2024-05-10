@@ -8,6 +8,7 @@ At the States of Jersey’s [Legislative Drafting Office](https://www.gov.je/Gov
 
 For more, see [**About the project**](/about), [**Our work**](/work), and the [**Team**](/team). We also have a [**Substack blog**](https://digitallegislation.substack.com){:target="_blank"}.
 
+For our presentation at the **Commonwealth Association of Legislative Counsel 2024 conference** in Jamaica, see the [**slides**](https://osf.io/yzf6x){:target="_blank"} on our OSF site.
 
 ![A diagram showing the if-this-then-that structure of a piece of legislation](/images/ifttt-example.png){:.my-l} *If-this-then structure of a provision*
 
