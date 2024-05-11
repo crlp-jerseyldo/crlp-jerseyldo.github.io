@@ -51,11 +51,24 @@ We have tried various ways of marking up this parsing on the imaginary examples,
 * [**QnA** Markup](https://www.qnamarkup.org){:target="_blank"} to produce free online questionnaires
 * [**Mermaid** Markdown](https://mermaid.js.org){:target="_blank"} to produce free online flowcharts
 * [AustLII **DataLex** ylegis and yscript](https://datalex.org){:target="_blank"} to produce free online consultations
-* **Excel** spreadsheets - to demonstrate what can be done by carving the original text into chunks in cells which are then used in Excel's IF formula
+* **Excel** spreadsheets - to demonstrate what can be done by carving the original text into chunks in cells which are then used in Excel's IF formula - see our working examples in the **"Spreadsheets if-then"** folder in our ["Parsing exercises" stream](https://osf.io/qg4pb/){:target="_blank"} on OSF
 * we would like to have versions in other more sophisticated systems like L4 from Singapore Management University and Blawx from Jason Morris - watch this space
 
 The point of capturing the logical structure is to be able to use it in a logical reasoner, which will give answers about what the effect is when the relevant conditions are met, without any AI magic or hallucinations.
 
-We are separately also analysing Jersey Laws for significant non-logical structures - starting with definitions, offences, and powers to make subsidiary legislation. Later we will see whether it is worth trying to do that with "must", "may" and "must not" provisions. The point is not to use the output in a logical reasoner, but to be able to pull out all the examples in a particular Law of each type of provision and its standard elements (such as the defined term in a definition, or the penalty in an offence). That could be useful for making a first draft of the Explanatory Note, but it will also be useful when Assembly members want to see where they are being asked to trust Ministers to make Orders, or when civil servants need to find powers to be delegated, or when the police and courts want to find new offences.
+## Parsing elements other than if-then - for retrieval
+We are separately also analysing Jersey Laws for significant non-logical structures, starting with -
+* definitions,
+* offences, and
+* powers to make subsidiary legislation. 
 
-**This page is being updated.** You can find a full archive on OSF: <https://osf.io/yzf6x/>{:target="_blank"}.
+Later we will see whether it is worth trying to do that with "must", "may" and "must not" provisions. 
+
+The point is not to use the output in a logical reasoner, but to be able to pull out all the examples in a particular Law of each type of provision and its standard elements (such as the defined term in a definition, or the penalty in an offence). That could be useful for making a first draft of the Explanatory Note. But it will also be useful -
+* when Assembly members want to see where they are being asked to trust Ministers to make Orders, or
+* when civil servants need to find powers to be delegated, or
+* when the police and courts want to find new offences.
+
+We are wary of suggestions that this sort of markup should be used to count up items as a way of drawing conclusions about the effect of the legislation. For instance, the drafter can carve up creating offences into several separate offences or one large one, and the number of separate offences created is not a good guide to how burdensome the legislation is. See Matthew's paper ["The statute data swamp: NLP, data cleansing, data interpretation and legislative drafting"](https://osf.io/preprints/socarxiv/vymhu){:target="_blank"} for problems with an exercise like that in NSW.
+
+**This page is being updated.** You can find a our document store on OSF: <https://osf.io/yzf6x/>{:target="_blank"}.
