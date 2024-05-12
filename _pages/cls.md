@@ -6,8 +6,6 @@ parent: Our work
 parent_url: /work/
 ---
 
-# "Common Legislative Solutions" - parsing a Jerseyfied version
-
 * TOC 
 {:toc}
 
