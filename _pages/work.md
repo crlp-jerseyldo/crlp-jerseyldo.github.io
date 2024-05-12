@@ -8,23 +8,24 @@ permalink: /work/
 
 ----
 
-Our work is split into 4 main streams. Click a title for more information. 
+Our work is split into 4 main streams are (click a title for more information) - 
 
 ## 1. [Artificial Intelligence and legislation](/work/artificial-intelligence-and-legislation)
 
-Using machine learning to aid the identification of definitions and logical structures within legislation.
+Using AI (LLMs & machine learning) to help drafters identify logical structures & key elements within legislation.
 
 ## 2. [Non-technical guidance & training for drafters](/work/guidance-for-drafters)
 
-Taking insights from the practice of digitisation to help improve the logical rigour of drafts.
+Helping to improve the logical rigour of drafting by taking insights from modern logic and computing.
 
-## 3. [“Common Legislative Solutions”](/work/common-legislative-solutions)
-
-Parsing & digitising model provisions to produce a Jersey-specific version of CLS.
-
-## 4. [Parsing exercises](/work/parsing-exercises)
+## 3. [Parsing exercises](/work/parsing-exercises)
 
 Producing imaginary & real examples of provisions formalised with different forms of mark-up, as well as in Mermaid, QnA & Excel, and possibly in DataLex, L4 and Blawx.
+
+## 4. [Other - “Common Legislative Solutions”, an IDE-like drafting tool, Interpretation Law modernisation](/work/common-legislative-solutions)
+* Common Legislative Solutions - parsing & digitising model provisions in a Jersey-adapted version of CLS.
+* IDE-like drafting tool - a basic specification, with illustrative mock-ups, of a potential tool for legislative drafters, adapting the "Integratred Development Environments" that help programmers to code.
+* Interpretation Law for the digital age - seeing if there is scope for updating the Interpretation Law (and Interpretation Acts in other countries) to work better for humans and computers.
 
 ![Animation showing basic highlighting of a provision](/images/basic-highlighting.gif){:.my-l.frame} *Animation showing basic highlighting of an offence provision*
 
