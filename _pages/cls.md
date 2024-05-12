@@ -22,7 +22,7 @@ As part of our [parsing](/parsing-exercises) work we are parsing some model prov
 * LDO has set up a “coding club” in which we are learning about coding by producing a [docassemble](https://docassemble.org/){:target="_blank"} app to help instructing officers to follow the Jersey CLS guidance.
 * This builds on the experience of two members of the team who, as part of a course at [Flinders](https://docassemble.flinders.edu.au/interview?i=docassemble.FlindersUniDocassembleFrontPage:data/questions/main.yml){:target="_blank"} University, created a docassemble app which LDO has been using successfully for the last few years for policy officers to give usable instructions for annual increases in fees.
 
-## What is cRLP doing with the Jersey version of CLS?
+## What is CRLP doing with the Jersey version of CLS?
 * We are parsing some of the examples of actual provisions, that will be included in the Jersey version of CLS.
 * That helps us to spot problems before we parse and draft model provisions to recommend for adaptation by drafters in particular drafts.
 * It also means the models will come ready parsed and marked up to be computer-readable.
