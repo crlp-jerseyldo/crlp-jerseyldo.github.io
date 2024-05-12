@@ -8,7 +8,7 @@ permalink: /work/
 
 ----
 
-Our work is split into 4 main streams are (click a title for more information) - 
+Our work is split into 3 main streams and one catch-all (click a title for more information) - 
 
 ## 1. [Artificial Intelligence and legislation](/work/artificial-intelligence-and-legislation)
 
@@ -16,7 +16,7 @@ Using AI (LLMs & machine learning) to help drafters identify logical structures 
 
 ## 2. [Non-technical guidance & training for drafters](/work/guidance-for-drafters)
 
-Helping to improve the logical rigour of drafting by taking insights from modern logic and computing.
+Helping to improve the logical rigour of drafting by taking insights from modern logic and computing, but without using any tech.
 
 ## 3. [Parsing exercises](/work/parsing-exercises)
 
