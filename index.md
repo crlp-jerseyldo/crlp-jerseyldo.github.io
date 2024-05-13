@@ -4,11 +4,11 @@ layout: default
 
 # <span>Welcome to the</span> <br><em>Computer-Readable Legislation Project</em> (CRLP)
 
-At the States of Jersey’s [Legislative Drafting Office](https://www.gov.je/Government/NonexecLegal/StatesGreffe/Pages/LegislativeDraftingOffice.aspx){:target="_blank"} (LDO) we have a 2-year Computer-Readable Legislation Project (part of the global “Rules as Code” initiative).
+At the States of Jersey’s [Legislative Drafting Office](https://www.gov.je/Government/NonexecLegal/StatesGreffe/Pages/LegislativeDraftingOffice.aspx){:target="_blank"} (LDO) we have a 2-year Computer-Readable Legislation Project running to the end of 2024 (part of the global “Rules as Code” initiative).
 
 For more, see [**About the project**](/about), [**Our work**](/work), and the [**Team**](/team). We also have a [**Substack blog**](https://digitallegislation.substack.com){:target="_blank"}.
 
-For our presentation at the **Commonwealth Association of Legislative Counsel 2024 conference** in Jamaica, download the [**slides**](https://osf.io/erxby){:target="_blank"} from our OSF site.
+For our presentation to the **Commonwealth Association of Legislative Counsel 2024 conference** in Jamaica, download the [**slides**](https://osf.io/erxby){:target="_blank"} from our OSF site.
 
 ![A diagram showing the if-this-then-that structure of a piece of legislation](/images/ifttt-example.png){:.my-l} *If-this-then structure of a provision*
 
