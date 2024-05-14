@@ -10,7 +10,7 @@ parent_url: /work/
 {:toc}
 
 ## Parsing for the logical structure - what is logic anyway? 
-Zoe Rillstone has been running a **workshop on logic** for legislative drafters at CALC meetings in the various regions and globally - we will upload the slides and questions. Meanwhile there is **The basics of symbolic formal logic as a useful tool for legislative counsel** in [CALC Loophole, November 2021](https://www.calc.ngo/publications/loopholes){:target="_blank"}
+Zoe Rillstone has been running a **workshop on logic** for legislative drafters at CALC meetings in the various regions and globally - see the slides and handouts in the [logic](https://osf.io/qg4pb/){:target="_blank"} folder in our "parsing exercises" stream on OSF. For more detail on application to legislative drafting, see **The basics of symbolic formal logic as a useful tool for legislative counsel** in [CALC Loophole, November 2021](https://www.calc.ngo/publications/loopholes){:target="_blank"} (or the copy in the logic folder on OSF).
 
 We are looking at formal logic, particularly propositional logic using "if", "and", "or" and "not". It is just a more sophisticated form of the common sense logic that legislative drafters already use to write their own drafts and to check drafts written by other drafters.
 
