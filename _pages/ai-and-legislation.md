@@ -6,7 +6,11 @@ parent: Our work
 parent_url: /work/
 ---
 
-We do not see AI taking over from humans in drafting legislation, but we do see it helping humans.
+We do not see AI taking over from humans in drafting legislation. We have tried it for drafting, and it is good for suggesting provisions the drafter might not have thought of, but the drafting of the actual provisions is still nowhere near rigorous enough for workable legislation. See our experiments with drafting a Commercial Baking Act/Law with ChatGPT in 2023 and 2024 in our [AI & legislation](https://osf.io/bkjqx/){:target="_blank"} folder on OSF - 
+* ChatGPT - Commercial Baking Act.pdf
+* Drafting legislation with free ChatGPT as at 15 May 2024.pdf
+
+But we do see AI helping humans.
 * [Legal Drafting in the Era of Artificial Intelligence and Digitisation](https://joinup.ec.europa.eu/sites/default/files/document/2022-06/Drafting%20legislation%20in%20the%20era%20of%20AI%20and%20digitisation%20%E2%80%93%20study.pdf){:target="_blank"} – Palmirani & others – AI could help with the **nuts and bolts** of drafting and managing draft legislation
 * **LLM**-driven AI chatbots, like [Codify AI](https://codifyai.com/){:target="_blank"} for Canadian legislation, try to answer questions about legislation. But we are thinking they cannot be fully reliable (given LLM “hallucinations”), and fully explainable
 * We are producing information notes to help tech firms thinking of developing a chatbot for questions about Jersey legislation
