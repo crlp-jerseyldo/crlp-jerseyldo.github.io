@@ -19,7 +19,7 @@ As part of our [parsing](/parsing-exercises) work we are parsing some model prov
 * CLS was inspired by “pattern languages” in computing - see for example:
   * Luke Norbury, [Loophole, Sept 2018](https://www.calc.ngo/publications/loopholes){:target="_blank"}
   * Leon Qiu (CRLP team member) led [“Formalisation memories: towards a pattern approach to legal design”](https://jusletter-it.weblaw.ch/issues/2024/28-Maerz-2024/formalisation-memori_15306e8304.html__ONCE&login=false){:target="_blank"} applying that to computational law
-  * Laurence Diver (CRLP) team member recently published an analysis of the Rule of Law from the pattern language perspective in the journal *Digital Society*: '[Using design patterns to build and maintain the Rule of Law](https://osf.io/preprints/socarxiv/587zd){:target="_blank"}'.
+  * Laurence Diver (CRLP team member) recently published an analysis of the Rule of Law from the pattern language perspective in the journal *Digital Society*: '[Using design patterns to build and maintain the Rule of Law](https://osf.io/preprints/socarxiv/587zd){:target="_blank"}'.
 
 ## What is Jersey's Legislative Drafting Office doing with CLS?
 * Jersey's Legislative Drafting Office is producing a Jersey version of CLS, aiming to back it up with model provisions (not just examples from actual legislation).
