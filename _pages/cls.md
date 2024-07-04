@@ -16,7 +16,10 @@ As part of our [parsing](/parsing-exercises) work we are parsing some model prov
 
 ## What is CLS?
 * “[Common legislative solutions](https://www.gov.uk/government/publications/common-legislative-solutions-a-guide-to-tackling-recurring-policy-issues-in-legislation){:target="_blank"} - a guide to tackling recurring policy issues in legislation” was produced by the UK drafting offices (with [Scottish](https://www.gov.scot/publications/guidance-instructing-counsel-common-legislative-solutions/){:target="_blank"} and [Welsh](https://www.gov.wales/common-legislative-solutions-a-guide-to-tackling-recurring-policy-issues-in-legislation){:target="_blank"} versions). It takes instructing officers through a set of questions about typical issues that come up in many drafting proposals, such as setting up statutory bodies, search powers, appeals, licensing schemes, criminal offences, and so on. 
-* CLS was inspired by “pattern languages” in computing - see Luke Norbury, [Loophole, Sept 2018](https://www.calc.ngo/publications/loopholes){:target="_blank"}. CRLP team member Leon Qiu led [“Formalisation memories: towards a pattern approach to legal design”](https://jusletter-it.weblaw.ch/issues/2024/28-Maerz-2024/formalisation-memori_15306e8304.html__ONCE&login=false){:target="_blank"} applying that to computational law
+* CLS was inspired by “pattern languages” in computing - see for example:
+  * Luke Norbury, [Loophole, Sept 2018](https://www.calc.ngo/publications/loopholes){:target="_blank"}
+  * Leon Qiu (CRLP team member) led [“Formalisation memories: towards a pattern approach to legal design”](https://jusletter-it.weblaw.ch/issues/2024/28-Maerz-2024/formalisation-memori_15306e8304.html__ONCE&login=false){:target="_blank"} applying that to computational law
+  * Laurence Diver (CRLP) team member recently published an analysis of the Rule of Law from the pattern language perspective in the journal *Digital Society*: '[Using design patterns to build and maintain the Rule of Law](https://osf.io/preprints/socarxiv/587zd){:target="_blank"}'.
 
 ## What is Jersey's Legislative Drafting Office doing with CLS?
 * Jersey's Legislative Drafting Office is producing a Jersey version of CLS, aiming to back it up with model provisions (not just examples from actual legislation).
