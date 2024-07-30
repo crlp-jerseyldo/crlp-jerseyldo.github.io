@@ -21,6 +21,7 @@ Many lawyers are repulsed by the mathematical look of formal logic, and many com
 * [Layman Allen, Normalized Legal Drafting and the Query Method](https://repository.law.umich.edu/cgi/viewcontent.cgi?article=1028&context=articles){:target="_blank"} (1978)
 * [Kowalski, The British Nationality Act as a Logic Program](https://www.doc.ic.ac.uk/~rak/papers/British%20Nationality%20Act.pdf){:target="_blank"} (1986)
 * [Sartor, Fundamental Legal Concepts: A Formal and Teleological Characterisation](https://deon2008.uni.lu/Sartor_Paper.pdf){:target="_blank"} (2006)
+* [Governatori, Rotolo & Sartor, Logic and the law: philosophical foundations, deontics, and defeasible reasoning](https://www.researchgate.net/publication/353013213_Logic_and_the_Law_Philosophical_Foundations_Deontics_and_Defeasible_Reasoning){:target="_blank"} (2021) in Gabbay, Horty & Parent, Handbook of Deontic Logic and Normative Reasoning 2, 655-760
 
 ### Between – 
 * [Susan Haack, On Logic in the Law: 'Something, But Not All'](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3287317){:target="_blank"}
@@ -33,6 +34,23 @@ Many lawyers are repulsed by the mathematical look of formal logic, and many com
 “If we draft legislation that has logical errors, every other lawyer will want to be the first to point and laugh” - Every legislative drafter ever
 
 ## What logic are we talking about? 
+There are several aspects to logic as it relates to legislative drafting and legislation
+
+### Types of logic
+* **common sense** logic - which we use to check our drafts
+* **formal** logics - which logicians use to abstract logical structures - includes propositional logic, predicate logic and deontic logic (among others), as well as different types such as defeasible logic (see below)
+* **computer** logics - which computers use to operate, and which grew out of formal logic
+
+### Types of language – can all be “parsed”
+* **natural** – English, French, Welsh, Jèrriais 
+* **non-natural** – logical languages, computer languages
+* in between – **controlled natural languages** – natural language, but following rules so a computer can read it
+
+### Key features of formal logic
+* **Propositions** – true/false (binary/“Boolean” opposition) – linked in “arguments”
+* **Formal** – abstraction with symbols & parentheses – form not content (like algebra)
+* **Connectors** – not, and, or (inclusive/exclusive), if (and/not only if) – fixed meanings
+
 Zoe Rillstone has been running a **workshop on logic** for legislative drafters at CALC meetings in the various regions and globally - see the slides and handouts in the [logic](https://osf.io/qg4pb/){:target="_blank"} folder in our "parsing exercises" stream on OSF. For more detail on application to legislative drafting, see **The basics of symbolic formal logic as a useful tool for legislative counsel** in [CALC Loophole, November 2021](https://www.calc.ngo/publications/loopholes){:target="_blank"} (or the copy in the logic folder on OSF).
 
 We are looking at formal logic, particularly propositional logic using "if", "and", "or" and "not". It is just a more sophisticated form of the common sense logic that legislative drafters already use to write their own drafts and to check drafts written by other drafters.
