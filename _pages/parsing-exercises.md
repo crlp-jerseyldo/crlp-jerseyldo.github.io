@@ -15,7 +15,7 @@ For information about our **parsing** work, see -
 * our [Substack post](https://digitallegislation.substack.com/p/news-from-the-computer-readable-legislation?utm_source=profile&utm_medium=reader2){:target="_blank"} on the work Margaux McQuilton did for us as an intern, and
 * the article by Matthew Waddington in the CALC Loophole of September 2023 ["Jersey’s project on parsing drafts for if-then structures for Rules as Code"](https://www.calc.ngo/sites/default/files/loophole/Loophole%20-%202023-02%20%282023-09-06%29.pdf){:target="_blank"}
 
-For information on **logic**, and how it applies to legislative drafting, see our separate [logic page](/logic).
+For information on **logic**, and how it applies to legislative drafting, see our separate [logic page](/work/logic).
 
 ## What do we mean by "parsing" the logical structure of a draft of legislation?
 Parsing in **grammar** is something legislative drafters will already be familiar with. It is identifying the part of speech for each word in a sentence \(the grammatical function of the word\), and the relationships between them, as in "that is an adjective and it qualifies this noun". 
