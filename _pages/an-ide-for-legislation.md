@@ -1,22 +1,22 @@
 ---
 layout: page
-title: An IDE for legislation
+title: An IDE-like tool for legislative drafting
 permalink: /work/an-ide-for-legislation
 parent: Our work
 parent_url: /work/
 ---
 
-# IDE-like legislative drafting tool
 We want to show legislative drafters how a prospective tool could work to help them create, mark up and check the logical structures in their drafts while they are drafting. We aim to do that by producing illustrative mock-ups, plus a basic specification as a starting point for any interested developers. We want drafters to imagine an equivalent for them of the "Integrated Development Environments" that help programmers to code (ideally with a tool sitting inside our Word templates or XML editors), rather than thinking we mean they have to draft their text first and then go back over it to mark it up. In the longer term we would like to see developers create these drafting tools but for now we are just illustrating what one could look like.
 
 ## Building on related work
+
+![A screenshot of a Python IDE offering help to a coder](/images/Python.png)
+
 * Programmers already have these tools to help them when they are writing code. In LDO’s “coding club” we have seen the benefit of tools in an [online Python IDE, Editor, Compiler, Interpreter](https://www.online-python.com){:target="_blank"} which (for instance) knows what you have already defined. [Grimmelmann](https://arxiv.org/abs/2206.14879){:target="_blank"} explains how lawyers could benefit from equivalents of an IDE and Jupyter Notebooks.
 * [Oracle Intelligent Adviser](https://www.oracle.com/cx/service/intelligent-advisor/){:target="_blank"} is an existing commercial tool (pre-AI) that shows it is already possible to help draft & check computer-readable **business rules**, and it was originally designed with legislation in mind.
 * We want to build on Schwartz & others (2023) [“Design Principles for Integrated **Legislation** Drafting Environment”](https://ssrn.com/abstract=4556959){:target="_blank"} and adapt it for Commonwealth drafting.
 * In the EU there is the [LEOS](https://joinup.ec.europa.eu/collection/justice-law-and-security/solution/leos-open-source-software-editing-legislation){:target="_blank"} editing tool, where they are looking at adding functions to help drafters and to mark up more elements in their Akoma Ntoso system (potentially using LegalRuleML) - see ["Drafting legislation in the era of AI and digitisation"](https://joinup.ec.europa.eu/collection/justice-law-and-security/solution/leos-open-source-software-editing-legislation/document/drafting-legislation-era-ai-and-digitisation){:target="_blank"} and ["Overview of smart functionalities in drafting legislation in LEOS"](https://joinup.ec.europa.eu/collection/justice-law-and-security/solution/leos-open-source-software-editing-legislation/document/overview-smart-functionalities-drafting-legislation-leos){:target="_blank"}. The UK's LawMaker drafting system is  XML-based, also using Akoma Ntoso, and has also been looking at LegalRuleML.
 * Just before this project started, we met Oswald Maskens who demonstrated a model he had made, gave us a talk on his ideas about leveraging tools for software engineering in legal corpus management, and showed us VS Code as an example of what an IDE could offer.
-
-![A screenshot of a Python IDE offering help to a coder](/images/Python.png)
 
 ## What would the imaginary tool do?
 * The tool would **help** the drafter to be **rigorous** in creating (and marking up for computer readability) -
@@ -48,9 +48,9 @@ Much of this would be by **auto-complete** suggestions, so imagine -
 But it is **not just auto-complete**, and isn't just a glorified handler of a precedent bank -
 *	you press enter to start a new paragraph (your system already automatically formats that as a paragraph and numbers it properly, and, if it is an XML system, already identifies that numbered para with metadata) - the tool pops up an offer to help you if you are making an if-then provision (which most provisions are), and if you click yes then it helps you clarify in your own mind what the conditions & effects are and how the and/or/not elements work, as well as marking them up, 
 *	you type "must" (or pick it from a menu) -
-  *	the tool prompts you to check that you have a clear enough link to the consequences (in another provision, or implied) if the "must" is breached,
-  *	it asks if you are applying the "must" to a person (and asks if you are sure you want to use "must" if it isn't a person),
-  *	and if it thinks you have used passive voice after the "must" it asks you to check whether you really want to,
+    *	the tool prompts you to check that you have a clear enough link to the consequences (in another provision, or implied) if the "must" is breached,
+    *	it asks if you are applying the "must" to a person (and asks if you are sure you want to use "must" if it isn't a person),
+    *	and if it thinks you have used passive voice after the "must" it asks you to check whether you really want to,
 *	and so on - it does not need to dictate drafting rules, unless they are compulsory in your office.
 
 The aim is to make this clearer by producing videos of a mock-up of what the tool would be doing.
