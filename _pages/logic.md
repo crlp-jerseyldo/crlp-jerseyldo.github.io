@@ -32,7 +32,14 @@ Many lawyers are repulsed by the mathematical look of formal logic, and many com
 * [Parsing drafts for if-then logic](https://www.youtube.com/watch?v=0PIC4UcetsI&list=PLxI6pLSZVXTp3BA9IBK-Q_yZukyImMcnq&index=2){:target="_blank"} – video from CALC conference 2022; Jersey’s project on parsing drafts for if-then structures for “Rules as Code”, Waddington, CALC Loophole, Sept 2023
 
 “If we draft legislation that has logical errors, every other lawyer will want to be the first to point and laugh” - Every legislative drafter ever. 
-In modern Commonwealth legislative drafting, the legislative drafters are creating logical structures which are expected to be coherent and in which one provision of a draft should not contradict another provision of the same draft without the relationship between them being clear (typically by saying one provision is "subject to" the other or applies "despite" the other), and the drafter has made a mistake if there is a logical inconsistency. 
+
+In modern Commonwealth legislative drafting, the legislative drafters are creating relationships between provisions which are expected to be **logically coherent** -
+* One provision of a draft should not **contradict** another provision of the same draft without the relationship between them being clear (typically by saying one provision is "subject to" the other or applies "despite" the other).
+* The drafter has made a mistake if there is a logical **inconsistency**. A common example is failing to deal with definitions that have some overlap -
+  * a type of entity is defined and a provision requires those entities to do some act,
+  * but then another type of entity is defined and prohibited from doing that act,
+  * but there is some overlap in the definitions of the types of entities,
+  * so that there are some entities that are both being required to do the act and prohibited from doing it.
 
 ## What logic are we talking about? 
 There are several aspects to logic as it relates to legislative drafting and legislation
@@ -59,6 +66,11 @@ Zoe Rillstone has been running a **workshop on logic** for legislative drafters 
 
 For more detail on applying formal logic to legislative drafting, see **The basics of symbolic formal logic as a useful tool for legislative counsel** in [CALC Loophole, November 2021](https://www.calc.ngo/publications/loopholes){:target="_blank"} (or the copy in the logic folder on OSF).
 
+The key is that most legislative provisions apply a **legal effect** if certain **conditions** are met (but those conditions might be cumulative or alternative, and some of them might be expressed negatively). 
+* This has a logical **if-then** structure, with and-or-not structures in the conditions.
+* The **human** reader of the legislation often finds these structures **confusing**, particularly when we have to provide exceptions to exceptions and generally cater for the complexity of human activity.
+* But the human reader can be **guided** through the logical structures by a computer, given that **computers can follow logic easily and reliably**.
+
 ![Simpler example provision rendered in symbolic logic](/images/example-formal-logic-lgsltn.png)
 ![More complex example provision rendered in symbolic logic](/images/symboliclogic-regulator.png)
 
@@ -81,4 +93,4 @@ The logic is more complex when we add lists joined by "and" or "or" and when we 
 
 The purpose in each case is to capture the point that the person responding to the emergency needs to be a police officer if they are going to drive without a seatbelt.
 
-**This page is being updated.** You can find the documents we produce on OSF: <https://osf.io/bkjqx/>{:target="_blank"}.
+**This page is a work in progress.** We plan to add explanations of propositional logic, and why we are using if-then rather than going into deontic logic or defeasible logic. You can find the documents we produce on OSF: <https://osf.io/bkjqx/>{:target="_blank"}.
