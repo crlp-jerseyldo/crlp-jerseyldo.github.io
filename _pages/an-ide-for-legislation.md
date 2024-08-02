@@ -6,6 +6,9 @@ parent: Our work
 parent_url: /work/
 ---
 
+* TOC 
+{:toc}
+
 We want to show legislative drafters how a prospective **tool** could work to help them **create, mark up and check the logical structures in their drafts while they are drafting**. 
 * We aim to do that by producing **illustrative mock-ups**, plus a basic specification as a starting point for any interested developers.
 * We want drafters to imagine an equivalent for them of the **"Integrated Development Environments"** that help programmers to code (ideally with a tool sitting inside our Word templates or XML editors), rather than thinking we mean they have to draft their text first and then go back over it to mark it up.
