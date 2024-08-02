@@ -31,14 +31,15 @@ Many lawyers are repulsed by the mathematical look of formal logic, and many com
 * [The basics of symbolic formal logic as a useful tool for legislative counsel](https://www.calc.ngo/publications/loopholes){:target="_blank"}, Waddington, CALC Loophole, Oct 2021
 * [Parsing drafts for if-then logic](https://www.youtube.com/watch?v=0PIC4UcetsI&list=PLxI6pLSZVXTp3BA9IBK-Q_yZukyImMcnq&index=2){:target="_blank"} – video from CALC conference 2022; Jersey’s project on parsing drafts for if-then structures for “Rules as Code”, Waddington, CALC Loophole, Sept 2023
 
-“If we draft legislation that has logical errors, every other lawyer will want to be the first to point and laugh” - Every legislative drafter ever
+“If we draft legislation that has logical errors, every other lawyer will want to be the first to point and laugh” - Every legislative drafter ever. 
+In modern Commonwealth legislative drafting, the legislative drafters are creating logical structures which are expected to be coherent and in which one provision of a draft should not contradict another provision of the same draft without the relationship between them being clear (typically by saying one provision is "subject to" the other or applies "despite" the other), and the drafter has made a mistake if there is a logical inconsistency. 
 
 ## What logic are we talking about? 
 There are several aspects to logic as it relates to legislative drafting and legislation
 
 ### Types of logic
 * **common sense** logic - which we use to check our drafts
-* **formal** logics - which logicians use to abstract logical structures - includes propositional logic, predicate logic and deontic logic (among others), as well as different types such as defeasible logic (see below)
+* **formal** logics - which logicians use to abstract logical structures - includes propositional logic, predicate logic and deontic logic (among others), as well as different types such as defeasible logic (for handling our exceptions, and exceptions to exceptions)
 * **computer** logics - which computers use to operate, and which grew out of formal logic
 
 ### Types of language – can all be “parsed”
@@ -49,11 +50,14 @@ There are several aspects to logic as it relates to legislative drafting and leg
 ### Key features of formal logic
 * **Propositions** – true/false (binary/“Boolean” opposition) – linked in “arguments”
 * **Formal** – abstraction with symbols & parentheses – form not content (like algebra)
-* **Connectors** – not, and, or (inclusive/exclusive), if (and/not only if) – fixed meanings
+* **Connectors** – not, and, or (inclusive/exclusive), if (if but not only if, or if and only if) – fixed meanings
 
-Zoe Rillstone has been running a **workshop on logic** for legislative drafters at CALC meetings in the various regions and globally - see the slides and handouts in the [logic](https://osf.io/qg4pb/){:target="_blank"} folder in our "parsing exercises" stream on OSF. For more detail on application to legislative drafting, see **The basics of symbolic formal logic as a useful tool for legislative counsel** in [CALC Loophole, November 2021](https://www.calc.ngo/publications/loopholes){:target="_blank"} (or the copy in the logic folder on OSF).
+## How does formal logic apply to legislative drafting? 
+We are looking at formal logic, particularly propositional logic using "if", "and", "or" and "not". It is just a more sophisticated form of the **common sense logic** that legislative drafters **already** use to write their own drafts and to check drafts written by other drafters.
 
-We are looking at formal logic, particularly propositional logic using "if", "and", "or" and "not". It is just a more sophisticated form of the common sense logic that legislative drafters already use to write their own drafts and to check drafts written by other drafters.
+Zoe Rillstone has been running a **workshop on logic** for legislative drafters at meetings of the Commonwealth Association of Legislative Drafters in the various regions and globally. See the slides and handouts in the [logic](https://osf.io/qg4pb/){:target="_blank"} folder in our "parsing exercises" stream on OSF. 
+
+For more detail on applying formal logic to legislative drafting, see **The basics of symbolic formal logic as a useful tool for legislative counsel** in [CALC Loophole, November 2021](https://www.calc.ngo/publications/loopholes){:target="_blank"} (or the copy in the logic folder on OSF).
 
 ![Simpler example provision rendered in symbolic logic](/images/example-formal-logic-lgsltn.png)
 ![More complex example provision rendered in symbolic logic](/images/symboliclogic-regulator.png)
