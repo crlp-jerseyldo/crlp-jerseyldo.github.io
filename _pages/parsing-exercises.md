@@ -9,17 +9,13 @@ parent_url: /work/
 * TOC 
 {:toc}
 
-## Parsing for the logical structure - what is logic anyway? 
-Zoe Rillstone has been running a **workshop on logic** for legislative drafters at CALC meetings in the various regions and globally - see the slides and handouts in the [logic](https://osf.io/qg4pb/){:target="_blank"} folder in our "parsing exercises" stream on OSF. For more detail on application to legislative drafting, see **The basics of symbolic formal logic as a useful tool for legislative counsel** in [CALC Loophole, November 2021](https://www.calc.ngo/publications/loopholes){:target="_blank"} (or the copy in the logic folder on OSF).
+## Parsing for the logical structure - further information 
 
-We are looking at formal logic, particularly propositional logic using "if", "and", "or" and "not". It is just a more sophisticated form of the common sense logic that legislative drafters already use to write their own drafts and to check drafts written by other drafters.
-
-![Example provision rendered in symbolic logic](/images/symboliclogic-regulator.png)
-
-## What parsing are we doing?
-For information about our parsing work, see 
+For information about our **parsing** work, see -
 * our [Substack post](https://digitallegislation.substack.com/p/news-from-the-computer-readable-legislation?utm_source=profile&utm_medium=reader2){:target="_blank"} on the work Margaux McQuilton did for us as an intern, and
 * the article by Matthew Waddington in the CALC Loophole of September 2023 ["Jersey’s project on parsing drafts for if-then structures for Rules as Code"](https://www.calc.ngo/sites/default/files/loophole/Loophole%20-%202023-02%20%282023-09-06%29.pdf){:target="_blank"}
+
+For information on **logic**, and how it applies to legislative drafting, see our separate [logic page](/logic).
 
 ## What do we mean by "parsing" the logical structure of a draft of legislation?
 Parsing in **grammar** is something legislative drafters will already be familiar with. It is identifying the part of speech for each word in a sentence \(the grammatical function of the word\), and the relationships between them, as in "that is an adjective and it qualifies this noun". 
