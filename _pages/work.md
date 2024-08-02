@@ -8,7 +8,7 @@ permalink: /work/
 
 ----
 
-Our work is split into 3 main streams and one catch-all (click a title for more information) - 
+Our work is split into 4 main streams and one catch-all (click a title for more information) - 
 
 ## 1. [Artificial Intelligence and legislation](/work/artificial-intelligence-and-legislation)
 
@@ -22,9 +22,12 @@ Helping to improve the logical rigour of drafting by taking insights from modern
 
 Producing imaginary & real examples of provisions formalised with different forms of mark-up, as well as in Mermaid, QnA & Excel, and possibly in DataLex, L4 and Blawx.
 
-## 4. [Other - “Common Legislative Solutions”, an IDE-like drafting tool, Interpretation Law modernisation](/work/common-legislative-solutions)
+## 4. [Mock-up of a drafting tool](/work/an-ide-for-legislation)
+
+Producing illustrative mock-ups, with a basic specification, for a potential tool to help legislative drafters create, check and mark up their logical structures, adapting the "Integratred Development Environments" that help programmers to code.
+
+## 5. [Other - “Common Legislative Solutions”, Interpretation Law modernisation](/work/common-legislative-solutions)
 * Common Legislative Solutions - parsing & digitising model provisions in a Jersey-adapted version of CLS.
-* IDE-like drafting tool - a basic specification, with illustrative mock-ups, of a potential tool for legislative drafters, adapting the "Integratred Development Environments" that help programmers to code.
 * Interpretation Law for the digital age - seeing if there is scope for updating the Interpretation Law (and Interpretation Acts in other countries) to work better for humans and computers.
 
 ![Animation showing basic highlighting of a provision](/images/basic-highlighting.gif){:.my-l.frame} *Animation showing basic highlighting of an offence provision*
