@@ -18,9 +18,9 @@ Using AI (LLMs & machine learning) to help drafters identify logical structures 
 
 Helping to improve the logical rigour of drafting by taking insights from modern logic and computing, but without using any tech.
 
-## 3. [Parsing exercises](/work/parsing-exercises)
+## 3. [Parsing exercises & logic](/work/parsing-exercises)
 
-Producing imaginary & real examples of provisions formalised with different forms of mark-up, as well as in Mermaid, QnA & Excel, and possibly in DataLex, L4 and Blawx.
+Producing imaginary & real examples of provisions whose [logical](/work/logic) structures we formalise with different forms of mark-up, as well as in Mermaid, QnA & Excel, and possibly in DataLex, L4 and Blawx.
 
 ## 4. [Mock-up of a drafting tool](/work/an-ide-for-legislation)
 
