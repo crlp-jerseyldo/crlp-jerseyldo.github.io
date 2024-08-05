@@ -11,11 +11,16 @@ parent_url: /work/
 
 ## Parsing for the logical structure - further information 
 
-For information about our **parsing** work, see -
-* our [Substack post](https://digitallegislation.substack.com/p/news-from-the-computer-readable-legislation?utm_source=profile&utm_medium=reader2){:target="_blank"} on the work Margaux McQuilton did for us as an intern, and
-* the article by Matthew Waddington in the CALC Loophole of September 2023 ["Jersey’s project on parsing drafts for if-then structures for Rules as Code"](https://www.calc.ngo/sites/default/files/loophole/Loophole%20-%202023-02%20%282023-09-06%29.pdf){:target="_blank"}
-
-For information on **logic**, and how it applies to legislative drafting, see our separate [logic page](/work/logic).
+* For information on **logic**, see our separate page on [**logic** and legislative drafting](/work/logic)
+* For information about our **parsing** work, see -
+  * our [Substack post](https://digitallegislation.substack.com/p/news-from-the-computer-readable-legislation?utm_source=profile&utm_medium=reader2){:target="_blank"} on the parsing work Margaux McQuilton did for us as an intern, and
+  * ["Jersey’s project on parsing drafts for if-then structures for Rules as Code"](https://www.calc.ngo/sites/default/files/loophole/Loophole%20-%202023-02%20%282023-09-06%29.pdf){:target="_blank"} (or extracted [copy on OSF](https://osf.io/mfwc6){:target="_blank"})
+* For more on how we see this fitting into "**Rules as Code**" and computational law, see -
+  * [Rules As Code: Drawing Out the Logic of Legislation for Drafters and Computers](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4299375){:target="_blank"}
+  * [Research Note - Rules as Code](https://journals.latrobe.edu.au/index.php/law-in-context/article/view/134){:target="_blank"}
+* For why we believe this is still needed however much [AI](/work/ai-and-legislation) will improve, see -
+  * our presentation to CALC on a [hybrid "sandwich" approach](https://osf.io/8v5bd)){:target="_blank"} 
+  * and Canada's pitch to [develop ‘rules as code’ chatbots](https://www.youtube.com/watch?v=UIz4TLBO4WQ){:target="_blank"}
 
 ## What do we mean by "parsing" the logical structure of a draft of legislation?
 Parsing in **grammar** is something legislative drafters will already be familiar with. It is identifying the part of speech for each word in a sentence \(the grammatical function of the word\), and the relationships between them, as in "that is an adjective and it qualifies this noun". 
@@ -37,7 +42,7 @@ The logic is more complex when we add lists joined by "and" or "or" and when we 
 The purpose in each case is to capture the point that the person responding to the emergency needs to be a police officer if they are going to drive without a seatbelt.
 
 ## What have we been parsing and how have we marked up the parsing?
-We have a [set](https://osf.io/rjduz){:target="_blank"} of imaginary examples of legislative provisions, using different forms of if/who construction, with increasingly complex and/or/not relationships, and definitions and "must" provisions. The most basic is "if a person drives, the person must wear a seatbelt", working up to provisions that have all of these elements.
+We have a [set of imaginary examples of legislative provisions](https://osf.io/rjduz){:target="_blank"}, using different forms of if/who construction, with increasingly complex and/or/not relationships, and definitions and "must" provisions. The most basic is "if a person drives, the person must wear a seatbelt", working up to provisions that have all of these elements.
 
 ![Example imaginary provisions with if-and-or-not, definitions, must and offences](/images/AlcoholDogExamples.png)
 
@@ -48,9 +53,9 @@ We have tried various ways of marking up this parsing on the imaginary examples,
 * [**Mermaid** Markdown](https://mermaid.js.org){:target="_blank"} to produce free online flowcharts
 * [AustLII **DataLex** ylegis and yscript](https://datalex.org){:target="_blank"} to produce free online consultations
 * **Excel** spreadsheets - to demonstrate what can be done by carving the original text into chunks in cells which are then used in Excel's IF formula - see our working examples in the **"Spreadsheets if-then"** folder in our ["Parsing exercises" stream](https://osf.io/qg4pb/){:target="_blank"} on OSF
-* we would like to have versions in other more sophisticated systems like L4 from Singapore Management University and Blawx from Jason Morris - watch this space
+* we would like to have versions in other more sophisticated systems like [L4](https://l4-documentation.readthedocs.io/en/latest/index.html){:target="_blank"} from [Singapore Management University](https://cclaw.smu.edu.sg/about){:target="_blank"} and [Blawx](https://www.youtube.com/@JasonMorrisRTL/){:target="_blank"} from [Jason Morris](https://www.linkedin.com/in/jason-morris-09684023/){:target="_blank"} - watch this space
 
-The point of capturing the logical structure is to be able to use it in a logical reasoner, which will give answers about what the effect is when the relevant conditions are met, without any AI magic or hallucinations.
+The point of capturing the logical structure is to be able to use it in a logical reasoner, which will give answers about what the effect is when the relevant conditions are met, without any AI hallucinations.
 
 ## Parsing elements other than if-then - for retrieval
 We are separately also analysing Jersey Laws for significant non-logical structures, starting with -
