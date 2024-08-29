@@ -1,5 +1,5 @@
-import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
-import "../node_modules/tributejs/dist/tribute.min.js";
+import "./bootstrap.bundle.min.js";
+import "./tribute.min.js";
 
 /*
  * Grab definitions and provisions for later use
