@@ -76,7 +76,3 @@ exclude:
   - README.md
   - CNAME
   - vendor
-
-include:
-  - ilde-mockup/node_modules/bootstrap
-  - ilde-mockup/node_modules/tributejs
