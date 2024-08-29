@@ -78,5 +78,5 @@ exclude:
   - vendor
 
 include:
-  - node_modules/bootstrap
-  - node_modules/tributejs
+  - ilde-mockup/node_modules/bootstrap
+  - ilde-mockup/node_modules/tributejs
