@@ -78,13 +78,12 @@ $theme-colors: (
 //
 // Custom styles
 //
-
-
-@import "icon-list";
-//@import "../node_modules/tributejs/dist/tribute.css";
-
 body {
-  background: #dedede;
+  background: #eee;
+}
+
+.body-wrapper {
+  min-width: 800px;
 }
 
 .card {
@@ -98,6 +97,17 @@ body {
       background: #fff;
     }
 
+    &.title-bar {
+      .ui-title {
+        width: 100%;
+        font-size: .9rem;
+      }
+      .rounded-circle {
+        width: 1rem;
+        height: 1rem;
+      }
+    }
+
     &.toolbar {
       border: 0;
       background-color: #f1f1f1;
@@ -106,7 +116,8 @@ body {
   }
 
   .ui-body {
-    height: 82vh
+    height: 82vh;
+    min-width: 800px;
   }
 }
 
@@ -126,6 +137,10 @@ body {
       background: var(--bs-btn-bg);
     }
   }
+}
+
+h1 {
+  font-size: 2em;
 }
 
 .serif {
