@@ -78,7 +78,7 @@ $theme-colors: (
 
 
 @import "icon-list";
-@import "../node_modules/tributejs/dist/tribute.css";
+//@import "../node_modules/tributejs/dist/tribute.css";
 
 body {
   background: #dedede;
@@ -387,7 +387,11 @@ body.show-issues {
   }
 }
 
-.editable { // Editable <li>s
+/*
+ * Tributejs autocomplete
+ */
+
+ .editable { // Editable <li>s
   position: relative;
 
   &:focus-visible {
@@ -396,33 +400,54 @@ body.show-issues {
   }
 }
 
-.tribute-container { // Autocomplete results list
+.tribute-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: auto;
+  max-height: 300px;
+  max-width: 500px;
+  overflow: auto;
+  display: block;
+  z-index: 999999;
   border-width: 2px;
-  
+
   ul {
-    margin-top: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #efefef;
+  }
 
-    li {
-      padding: .5em;
-      line-height: 1.22;
-      border-bottom: 1px solid #eee;
-      background: #fff;
+  li {
+    padding: .5em;
+    line-height: 1.22;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    cursor: pointer;
 
-      &.highlight {
-        background: rgba($pink, .075);
-      }
+    &.highlight {
+      background: rgba($pink, .075);
+    }
+
+    &.no-match {
+      cursor: default;
+    }
+
+    span {
+      font-weight: normal;
 
       span {
-        font-weight: normal;
-
-        span {
-          font-weight: bold;
-          background: rgba($pink, .15)
-        }
+        font-weight: bold;
+        background: rgba($pink, .15)
       }
     }
   }
 
+  .menu-highlighted {
+    font-weight: bold;
+  }
+  
   .term {
     color: $pink;
   }
