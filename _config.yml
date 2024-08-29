@@ -77,3 +77,6 @@ exclude:
   - CNAME
   - vendor
 
+include:
+  - node_modules/bootstrap
+  - node_modules/tributejs
