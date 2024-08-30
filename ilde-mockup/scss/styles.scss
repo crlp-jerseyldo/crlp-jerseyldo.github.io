@@ -208,6 +208,13 @@ h1 {
 
 .popover-body {
   font-size: 1.25em;
+
+  a.definition {
+    border: 0 !important;
+    cursor: default !important;
+    color: var(--bs-body-color) !important;
+    pointer-events: none;
+  }
 }
 
 .custom-tooltip {
@@ -299,10 +306,23 @@ mark { // Default state of highlights
   }
 }
 
-body.show-definitions {
-  a.definition {
+body.show-intdefinitions {
+  a.definition.int {
     color: $pink !important;
     border-bottom: 2px dotted $pink;
+    cursor: pointer;
+    pointer-events: all;
+
+    &[aria-describedby] {
+      background: $gray-200;
+    }
+  }
+}
+
+body.show-extdefinitions {
+  a.definition.ext {
+    color: $purple !important;
+    border-bottom: 2px dotted $purple;
     cursor: pointer;
     pointer-events: all;
 
