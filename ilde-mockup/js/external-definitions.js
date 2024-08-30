@@ -37,3 +37,13 @@ const extDefinitions = [
         ]
     },
 ];
+const undefinedTerms = [
+    parentLaw = {
+        "msg"   : "Undefined term used in parent law",
+        "terms" : [ "premises" ]
+    },
+    noLaw = {
+        "msg"   : "Undefined term",
+        "terms" : [ "hotel", "misunderstanding", "warning", "price list" ]
+    }
+];

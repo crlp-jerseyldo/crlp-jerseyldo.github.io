@@ -285,6 +285,11 @@ a.definition { // Default state of definition links
   pointer-events: none;
 }
 
+em { // Default state of undefined terms
+  font-style: normal;
+  transition: .3s all;
+}
+
 mark { // Default state of highlights
   position: relative;
   border: 0;
@@ -339,6 +344,12 @@ body.show-extdefinitions {
     &[aria-describedby] {
       background: $gray-200;
     }
+  }
+}
+
+body.show-undefined {
+  em {
+    background: rgba($yellow, .25);
   }
 }
 

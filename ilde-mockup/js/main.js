@@ -41,11 +41,16 @@ termNodeList.forEach((term) => {
     termList.push({key: naturalTerm, value: makeDefinitionLink(term.id, naturalTerm), def: term.innerText, ref: term.parentElement.getAttribute('data-ref'), source: 'int'});
 });
 
-termList.forEach((term) => { // Loop through provisions and find/replace terms
+termList.forEach((term, i) => { // Loop through provisions and find/replace terms
     provisionList.forEach((provision) => {
-        provision.innerHTML = provision.innerHTML.replace(new RegExp(`${term.key}`, 'ig'), term.value); // NB using innerHTML causes problems for repeating/overlapping terms, where the definition markup contains a subsequent term that is substituted. Handling this kind of conflict would need considered in production.
+        provision.innerHTML = provision.innerHTML.replace(new RegExp(`${term.key}`, 'ig'), term.value); // NB using innerHTML causes problems for repeating/overlapping terms, where the definition markup contains a subsequent term that is substituted. Handling this kind of conflict would need considered in production by using a NodeList instead of manipulating innerHTML.
     });
+    if (term.source == 'ext') {// Remove external terms
+        delete termList[i];
+    }
 });
+
+console.log(termList);
 
 /*
  * Create definition popovers
@@ -76,10 +81,21 @@ defList.map((el) => { // Create definition links on page load
 
 
 /*
- * Set up tooltips (not used currently)
+ * Set up tooltips
  */
-document.querySelectorAll('[data-bs-toggle="tooltip"]')
-  .forEach(tooltip => {
+
+undefinedTerms.forEach((category) => { // Undefined terms tooltips
+    category.terms.forEach((t) => {
+        provisionList.forEach((p) => {
+            p.innerHTML = p.innerHTML.replace(new RegExp(t, 'ig'), `<em>${t}</em>`);
+            //p.innerHTML = p.innerHTML.replace(new RegExp(t, 'ig'), `<span data-bs-toggle="tooltip" data-bs-title="helo" data-bs-placement="top">${t}</span>`);
+        })
+        
+    });
+});
+
+var tooltipElements = document.querySelectorAll('[data-bs-toggle="tooltip"]'); // Create tooltips
+  tooltipElements.forEach(tooltip => {
     new bootstrap.Tooltip(tooltip)
 });
 
