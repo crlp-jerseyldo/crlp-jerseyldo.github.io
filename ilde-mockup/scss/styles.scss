@@ -132,8 +132,21 @@ body {
     background: #fff;
   }
 
+  #checkextdefinition {
+    & + label.btn {
+      color: $purple;
+      border-color: $purple;
+    }
+
+    &:checked + label.btn {
+      color: #fff;
+      background-color: $purple;
+      box-shadow: rgba(0, 0, 0, 0.125) 0px 3px 5px 0px inset;
+    }
+  }
+
   a.preview {
-    background: #fff;
+    box-shadow: none;
 
     &:hover {
       color: var(--bs-btn-color);
