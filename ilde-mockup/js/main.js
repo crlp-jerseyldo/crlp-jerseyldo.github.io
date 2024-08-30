@@ -116,3 +116,15 @@ editableProvisions.forEach((provision) => {
 });
 
 tribute.attach(document.querySelectorAll(".editable")); // Execute Tribute
+
+
+/*
+ * Help panel popup on first page load
+ */
+const helpPanel = document.getElementById("help-panel");
+const seen = localStorage.getItem("help-seen");
+var helpPanelOffCanvas = new bootstrap.Offcanvas(helpPanel);
+if (!seen) {
+    helpPanelOffCanvas.show();
+    localStorage.setItem("help-seen", true);
+}
