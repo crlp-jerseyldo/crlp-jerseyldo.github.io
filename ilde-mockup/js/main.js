@@ -50,8 +50,6 @@ termList.forEach((term, i) => { // Loop through provisions and find/replace term
     }
 });
 
-console.log(termList);
-
 /*
  * Create definition popovers
  */
@@ -83,16 +81,14 @@ defList.map((el) => { // Create definition links on page load
 /*
  * Set up tooltips
  */
-
-undefinedTerms.forEach((category) => { // Undefined terms tooltips
-    category.terms.forEach((t) => {
-        provisionList.forEach((p) => {
-            p.innerHTML = p.innerHTML.replace(new RegExp(t, 'ig'), `<em>${t}</em>`);
-            //p.innerHTML = p.innerHTML.replace(new RegExp(t, 'ig'), `<span data-bs-toggle="tooltip" data-bs-title="helo" data-bs-placement="top">${t}</span>`);
-        })
-        
-    });
-});
+// undefinedTerms.forEach((category) => { // Undefined terms tooltips
+//     category.terms.forEach((t) => {
+//         provisionList.forEach((p) => {
+//             p.innerHTML = p.innerHTML.replace(new RegExp(t, 'ig'), `<em>${t}</em>`);
+//             //p.innerHTML = p.innerHTML.replace(new RegExp(t, 'ig'), `<span data-bs-toggle="tooltip" data-bs-title="helo" data-bs-placement="top">${t}</span>`);
+//         })
+//     });
+// });
 
 var tooltipElements = document.querySelectorAll('[data-bs-toggle="tooltip"]'); // Create tooltips
   tooltipElements.forEach(tooltip => {
