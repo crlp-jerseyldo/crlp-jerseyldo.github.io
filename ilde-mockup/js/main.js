@@ -2,27 +2,48 @@ import "./bootstrap.bundle.min.js";
 import "./tribute.min.js";
 
 /*
+ * Utility functions
+ */
+function makeDefinitionLink(id, naturalTerm, title, content) { // Function for creating templated definition links
+    var idAttr = id ? `data-bs-content-id="${id}"` : '';
+    var titleAttr = title ? `title="${title}"` : '';
+    var contentAttr = content ? `data-bs-content="${content}"` : '';
+    var classes = !id ? 'ext': 'int';
+    return `<span contenteditable="false"><a href="javascript:;" role="button" contenteditable="false" data-bs-toggle="popover" ${titleAttr} ${idAttr} ${contentAttr} class="definition ${classes}" tabindex="0">${naturalTerm}</a></span>`;
+}
+
+/*
  * Grab definitions and provisions for later use
  */
 const termNodeList = document.querySelectorAll('[id^="definition-"]');
 const provisionList = document.querySelectorAll('ul.provision.body > li');
-var termList = [];
+var termList = []; // Array of terms + defs for autocomplete
 
 /*
  * Process terms into links
  */
-function makeDefinitionLink(id, naturalTerm) { // Function for creating templated definition links
-    return `<span contenteditable="false"><a href="javascript:;" role="button" contenteditable="false" data-bs-toggle="popover" data-bs-content-id="${id}" class="definition" tabindex="0">${naturalTerm}</a></span>`;
-}
+
+// External definitions stored in external-definitions.js
+extDefinitions.forEach((definitionCategory) => {
+    var title = definitionCategory.title;
+    var url = definitionCategory.url;
+    var terms = definitionCategory.terms;
+    terms.forEach((term) => {
+        termList.push({key: term.term, value: makeDefinitionLink(false, term.term, `Externally defined term: “${term.term}”`, `<p class='m-0 p-0'><strong class='small'><a href='${url}' target='_blank'>${title}</a>, ${term.ref}</strong><br/><span class='serif'>${term.definition}</span></p>`), def: term.definition, ref: term.ref, source: 'ext'});
+    });
+});
+
+// Internal definitions defined in Article 1 of this document
 termNodeList.forEach((term) => {
     var realTerm = term.id.split('-');
     realTerm.shift();
     var naturalTerm = realTerm.join(' ');
-    var regex = new RegExp(`${naturalTerm}`, 'ig');
-    termList.push({key: naturalTerm, value: makeDefinitionLink(term.id, naturalTerm, false), def: term.innerText, ref: term.parentElement.getAttribute('data-ref')});
-        
+    termList.push({key: naturalTerm, value: makeDefinitionLink(term.id, naturalTerm), def: term.innerText, ref: term.parentElement.getAttribute('data-ref'), source: 'int'});
+});
+
+termList.forEach((term) => { // Loop through provisions and find/replace terms
     provisionList.forEach((provision) => {
-        provision.innerHTML = provision.innerHTML.replace(regex, makeDefinitionLink(term.id, naturalTerm, true));
+        provision.innerHTML = provision.innerHTML.replace(new RegExp(`${term.key}`, 'ig'), term.value); // NB using innerHTML causes problems for repeating/overlapping terms, where the definition markup contains a subsequent term that is substituted. Handling this kind of conflict would need considered in production.
     });
 });
 
