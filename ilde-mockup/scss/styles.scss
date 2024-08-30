@@ -1,7 +1,6 @@
 // Toggle global options
 $enable-gradients: true;
 $enable-shadows: true;
-
 $offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 
 // Include functions first
@@ -60,7 +59,7 @@ $theme-colors: (
 // @import "bootstrap/scss/list-group";
 @import "bootstrap/scss/close";
 // @import "bootstrap/scss/toasts";
-// @import "bootstrap/scss/modal"; // Requires transitions
+//@import "bootstrap/scss/modal"; // Requires transitions
 @import "bootstrap/scss/tooltip";
 @import "bootstrap/scss/popover";
 // @import "bootstrap/scss/carousel";
@@ -80,6 +79,14 @@ $theme-colors: (
 //
 body {
   background: #eee;
+
+  a {
+    color: desaturate(#0d6efd, 50%);
+
+    &:hover {
+      color: #0d6efd;
+    }
+  }
 }
 
 .body-wrapper {
@@ -197,8 +204,8 @@ h1 {
   --bs-popover-body-padding-y: .5rem;
 
   &-ext {
-    --bs-popover-border-color: var(--bs-gray-dark);
-    --bs-popover-header-bg: var(--bs-gray-dark);
+    --bs-popover-border-color: var(--bs-purple);
+    --bs-popover-header-bg: var(--bs-purple);
     --bs-popover-max-width: 600px;
     --bs-popover-header-color: var(--bs-white);
     --bs-popover-body-padding-x: 1rem;
@@ -238,7 +245,6 @@ ul.provision ul {
 }
 
 a {
-
   &.intref {
     position: relative;
     color: var(--bs-body-color) !important;
@@ -247,9 +253,10 @@ a {
     transition: border .3s;
 
     &:after {
-      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18px' height='18px' viewBox='0 0 18 18' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Cpath d='M10.729,14.167l-5.866,-0l-0,-1.667l5.866,0l0,1.667Zm0,-3.334l-5.833,0l-0,-1.666l5.833,-0l0,1.666Zm2.5,-3.333l-8.333,0l-0,-1.667l8.333,0l0,1.667Zm0.313,10.833c1.097,0 2.031,-0.385 2.802,-1.156c0.771,-0.771 1.156,-1.705 1.156,-2.802c0,-0.792 -0.205,-1.5 -0.615,-2.125c-0.409,-0.625 -0.948,-1.097 -1.614,-1.417l2.125,0l-0,-1.666l-5,-0l-0,5l1.666,-0l0,-2.021c0.514,0.111 0.938,0.375 1.271,0.791c0.334,0.417 0.5,0.896 0.5,1.438c0,0.639 -0.225,1.181 -0.677,1.625c-0.451,0.444 -0.989,0.667 -1.614,0.667l-0,1.666Zm-2.813,-0.833l0,-1.667l-7.5,0l0,-11.666l11.667,-0l-0,3.333l1.666,-0l0,-3.333c0,-0.459 -0.163,-0.851 -0.489,-1.177c-0.326,-0.327 -0.719,-0.49 -1.177,-0.49l-11.667,-0c-0.458,-0 -0.851,0.163 -1.177,0.49c-0.326,0.326 -0.49,0.718 -0.49,1.177l0,11.666c0,0.459 0.164,0.851 0.49,1.177c0.326,0.327 0.719,0.49 1.177,0.49l7.5,-0Z' style='fill:%23aaa;fill-rule:nonzero;'/%3E%3C/svg%3E");
+      display: inline-block;
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16px' height='16px' viewBox='0 0 18 18' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Cpath d='M10.729,14.167l-5.866,-0l-0,-1.667l5.866,0l0,1.667Zm0,-3.334l-5.833,0l-0,-1.666l5.833,-0l0,1.666Zm2.5,-3.333l-8.333,0l-0,-1.667l8.333,0l0,1.667Zm0.313,10.833c1.097,0 2.031,-0.385 2.802,-1.156c0.771,-0.771 1.156,-1.705 1.156,-2.802c0,-0.792 -0.205,-1.5 -0.615,-2.125c-0.409,-0.625 -0.948,-1.097 -1.614,-1.417l2.125,0l-0,-1.666l-5,-0l-0,5l1.666,-0l0,-2.021c0.514,0.111 0.938,0.375 1.271,0.791c0.334,0.417 0.5,0.896 0.5,1.438c0,0.639 -0.225,1.181 -0.677,1.625c-0.451,0.444 -0.989,0.667 -1.614,0.667l-0,1.666Zm-2.813,-0.833l0,-1.667l-7.5,0l0,-11.666l11.667,-0l-0,3.333l1.666,-0l0,-3.333c0,-0.459 -0.163,-0.851 -0.489,-1.177c-0.326,-0.327 -0.719,-0.49 -1.177,-0.49l-11.667,-0c-0.458,-0 -0.851,0.163 -1.177,0.49c-0.326,0.326 -0.49,0.718 -0.49,1.177l0,11.666c0,0.459 0.164,0.851 0.49,1.177c0.326,0.327 0.719,0.49 1.177,0.49l7.5,-0Z' style='fill:%23aaa;fill-rule:nonzero;'/%3E%3C/svg%3E");
       margin-left: 2px;
-      vertical-align: middle;
+      line-height: 14px;
     }
 
     &:hover {
@@ -257,11 +264,14 @@ a {
     }
   }
 
-  &[href^="http"] {
+  &[href^="http"],
+  &.preview {
     &::after {
+      display: inline-block;
       margin-left: 2px;
       vertical-align: middle;
-      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='16px' viewBox='0 -960 960 960' width='16px' fill='%23888'%3E%3Cpath d='M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z'/%3E%3C/svg%3E");
+      line-height: 14px;
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='14px' viewBox='0 -960 960 960' width='14px' fill='%23888'%3E%3Cpath d='M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z'/%3E%3C/svg%3E");
     }
   }
 }
