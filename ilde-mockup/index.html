@@ -51,22 +51,24 @@
                                 <label class="btn btn-outline-primary" for="checkissue">Issues</label>
                             </div>
                             <div class="d-flex input-group-sm" role="group">
-                                <a href="preview/" role="button" class="preview btn" target="_blank" data-bs-toggle="tooltip" data-bs-title="HTML version" data-bs-placement="bottom">Preview</a>
+                                <a href="preview/" role="button" class="preview btn px-0" target="_blank" data-bs-toggle="tooltip" data-bs-title="HTML version" data-bs-placement="bottom">Preview</a>
                                 <div class="vr mx-2"></div>
-                                <button class="btn btn-link help " type="button" data-bs-toggle="offcanvas" data-bs-target="#help-panel" aria-controls="help-panel"><span data-bs-toggle="tooltip" data-bs-title="Help" data-bs-placement="bottom"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#0d6efd"><path d="M478-240q21 0 35.5-14.5T528-290q0-21-14.5-35.5T478-340q-21 0-35.5 14.5T428-290q0 21 14.5 35.5T478-240Zm-36-154h74q0-33 7.5-52t42.5-52q26-26 41-49.5t15-56.5q0-56-41-86t-97-30q-57 0-92.5 30T342-618l66 26q5-18 22.5-39t53.5-21q32 0 48 17.5t16 38.5q0 20-12 37.5T506-526q-44 39-54 59t-10 73Zm38 314q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg></span></button>
+                                <button class="btn btn-link help " type="button" data-bs-toggle="offcanvas" data-bs-target="#help-panel" aria-controls="help-panel"><span data-bs-toggle="tooltip" data-bs-title="Help &amp; about" data-bs-placement="bottom" data-bs-offset="0,16"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#0d6efd"><path d="M478-240q21 0 35.5-14.5T528-290q0-21-14.5-35.5T478-340q-21 0-35.5 14.5T428-290q0 21 14.5 35.5T478-240Zm-36-154h74q0-33 7.5-52t42.5-52q26-26 41-49.5t15-56.5q0-56-41-86t-97-30q-57 0-92.5 30T342-618l66 26q5-18 22.5-39t53.5-21q32 0 48 17.5t16 38.5q0 20-12 37.5T506-526q-44 39-54 59t-10 73Zm38 314q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg></span></button>
                             </div>
                         </div>
 
                         <div id="help-panel" class="offcanvas offcanvas-start" tabindex="-1" aria-labelledby="helplabel">
                             <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="helplabel">Jersey LDO Integrated Legislation Drafting Environment (ILDE) mockup</h5>
+                                <h5 class="offcanvas-title" id="helplabel">Help &amp; about</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body small">
-                                <p class="alert alert-primary"><strong>This mockup demonstrates some of the features that a real-world <abbr title="Integrated Legislation Drafting Environment">ILDE</abbr> could have.</strong></p>
-                                <p>The focus is on features that could aid drafters' comprehension, without affecting the underlying text, which can always be viewed 'bare' if desired.</p>
+                                <p class="alert alert-primary"><strong>This mockup demonstrates some of the features that a real-world <abbr title="Integrated Legislation Drafting Environment">ILDE</abbr> could have.</strong><br/><br/>
+                                The focus is on features that could aid drafters' comprehension, without affecting the underlying text, which can always be viewed 'bare'.</p>
+                                <p>This mockup was developed as part of the <a href="https://crlp-jerseyldo.github.io" target="_blank">Computer-Readable Legislation Project</a> (CRLP) at the <a href="https://www.gov.je/Government/NonexecLegal/StatesGreffe/Pages/LegislativeDraftingOffice.aspx" target="_blank">Jersey Legislative Drafting Office</a>.</p>
+                                <p>The demo's features are described below.</p>
                                 <hr />
-                                <h6>Highlighting provisions</h6>
+                                <h6>1. Highlighting provisions</h6>
                                 <p>The buttons on the toolbar toggle various types of highlighting:</p>
                                 <ul>
                                     <li><strong>Defined terms:</strong> including those defined in this document and those defined in other instruments</li>
@@ -77,15 +79,14 @@
                                 </ul>
                                 <p>Some of these could be detected automatically. For example, terms defined in Article 1 could be automatically highlighted later in the document. Other elements could be manually specified by the drafter (e.g. associating a penalty with an offence, where the penalty is contained in a different provision).</p>
                                 <hr />
-                                <h6>Autocomplete</h6>
+                                <h6>2. Autocomplete</h6>
                                 <p>As the drafter writes text, an ILDE could detect the use of pre-defined terms and structures, and offer to insert template references or provisions (including from Common Legislative Solutions).</p>
                                 <p>To demonstrate, Articles 2(3) and 3(3) in the mockup can be edited. Typing a few characters of one of the terms defined in Article 1 will show a list of suggested terms and their definitions, which can then be inserted.</p>
                                 <p>This approach is similar to the '<a href="https://code.visualstudio.com/docs/editor/intellisense" target="_blank">Intellisense</a>' feature often found in modern software <abbr title="Integrated Development Environment">IDE</abbr>s.</p>
                                 <hr />
-                                <h6>'Code lens'</h6>
+                                <h6>3. 'Code lens'</h6>
                                 <p>Above each provision is a panel showing the various elements that have been detected in that provision. This can alert the drafter to aspects of the provision that might need attention.</p>
                                 <p>This approach is akin to the '<a href="https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2013/dn269218(v=vs.120)" target="_blank">code lens</a>' feature often found in modern software IDEs.</p>
-                                <p class="alert alert-primary mb-0">This mockup was developed as part of the <a href="https://crlp-jerseyldo.github.io" target="_blank">Computer-Readable Legislation Project</a> (CRLP) at the <a href="https://www.gov.je/Government/NonexecLegal/StatesGreffe/Pages/LegislativeDraftingOffice.aspx" target="_blank">Jersey Legislative Drafting Office</a>.</p>
                             </div>
                         </div>
                     </div>
