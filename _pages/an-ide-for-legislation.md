@@ -9,7 +9,9 @@ parent_url: /work/
 * TOC 
 {:toc}
 
-We want to show legislative drafters how a prospective **tool** could work to help them **create, mark up and check the logical structures in their drafts while they are drafting**. 
+We have an interactive [**mock-up** of some of the functions of an imaginary **tool**](https://crlp-jerseyldo.github.io/ilde-mockup/){:target="_blank"} for legislative drafters - please try it out. It is a work in progress and we will add separate videos to illustrate further functions - for now we have [notes on our OSF site](https://osf.io/3qrx6){:target="_blank"} about the idea of expanding the defined terms hyperlinks to cover undefined repeated terms (which should have the same meaning). 
+
+We want to show legislative drafters how a possible tool could work to help them **create, mark up and check the logical structures in their drafts while they are drafting**. 
 * We aim to do that by producing **illustrative mock-ups**, plus a basic specification as a starting point for any interested developers.
 * We want drafters to imagine an equivalent for them of the **"Integrated Development Environments"** that help programmers to code (ideally with a tool sitting inside our Word templates or XML editors), rather than thinking we mean they have to draft their text first and then go back over it to mark it up.
 * In the longer term we would like to see developers create these drafting tools, starting with our basic spec, but for now we are just illustrating what a tool could look like.
