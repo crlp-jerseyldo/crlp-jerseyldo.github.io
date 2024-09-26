@@ -9,7 +9,7 @@ parent_url: /work/
 * TOC 
 {:toc}
 
-We have an interactive [**mock-up** of some of the functions of an imaginary **tool**](https://crlp-jerseyldo.github.io/ilde-mockup/){:target="_blank"} for legislative drafters - please try it out. It is a work in progress and we will add separate videos to illustrate further functions - for now we have [notes on our OSF site](https://osf.io/3qrx6){:target="_blank"} about the idea of expanding the defined terms hyperlinks to cover undefined repeated terms (which should have the same meaning). 
+We have an interactive [**mock-up** of some of the functions of an imaginary **tool**](https://crlp-jerseyldo.github.io/ilde-mockup/){:target="_blank"} for legislative drafters - please try it out. It is a work in progress and we will add separate videos to illustrate further functions - for now we have [notes on our OSF site](https://osf.io/3qrx6){:target="_blank"} about the idea of expanding the defined terms hyperlinks to cover undefined repeated terms (which should have the same meaning). We also have PowerPoints showing how the tool in the mock-up might look if it handled [repeated undefined terms](https://osf.io/uzw5d){:target="_blank"}, and if it handled marking up ["must" and "must not"](https://osf.io/fc3js){:target="_blank"} provisions to higlight their elements and link to the consequence of a breach.
 
 ![A screenshot of the mock-up of a drafting tool](/images/ILDE-mockup-screenshot.png)
 
