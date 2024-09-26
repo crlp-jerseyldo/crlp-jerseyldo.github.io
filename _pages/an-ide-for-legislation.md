@@ -9,12 +9,14 @@ parent_url: /work/
 * TOC 
 {:toc}
 
-We have an interactive [**mock-up** of some of the functions of an imaginary **tool**](https://crlp-jerseyldo.github.io/ilde-mockup/){:target="_blank"} for legislative drafters - please try it out. It is a work in progress and we will add separate videos to illustrate further functions - 
+We have an interactive [**mock-up** of some of the functions of an imaginary **tool**](https://crlp-jerseyldo.github.io/ilde-mockup/){:target="_blank"} for legislative drafters - please try it out. 
+
+![A screenshot of the mock-up of a drafting tool](/images/ILDE-mockup-screenshot.png)
+
+It is a work in progress and we will add separate videos to illustrate further functions - 
 * For now we have [notes on our OSF site](https://osf.io/3qrx6){:target="_blank"} about the idea of expanding the defined terms hyperlinks to cover undefined repeated terms (which should have the same meaning).
 * We also have a PowerPoint showing how the tool in the mock-up might look if it handled those [repeated undefined terms](https://osf.io/uzw5d){:target="_blank"},
 * Another PowerPoint shows how it might look if it handled marking up ["must" and "must not"](https://osf.io/fc3js){:target="_blank"} provisions to higlight their elements and link to the consequence of a breach.
-
-![A screenshot of the mock-up of a drafting tool](/images/ILDE-mockup-screenshot.png)
 
 We want to show legislative drafters how a possible tool could work to help them **create, mark up and check the logical structures in their drafts while they are drafting**. 
 * We aim to do that by producing **illustrative mock-ups**, plus a basic specification as a starting point for any interested developers.
