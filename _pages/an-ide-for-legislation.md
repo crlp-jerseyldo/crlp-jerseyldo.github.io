@@ -58,46 +58,46 @@ Much of this would be by intelligent **auto-complete** suggestions -
 So imagine	you have **defined** "alcohol" (which the tool helped you with) and then further on you type "al" -
 *	the tool offers to **auto-complete** that with a drop-down set of choices including "alcohol" as defined, 
 * if you pick that word, the tool **marks up** that instance of "alcohol" as a use of the defined term
-* see the way this works in the "Edit me" sections of the [**interactive mock-up**](https://crlp-jerseyldo.github.io/ilde-mockup/){:target="_blank"},
+* see the way this works in the "Edit me" sections of the [**interactive mock-up**](https://crlp-jerseyldo.github.io/ilde-mockup/){:target="_blank"}.
 
 Then imagine you type the first couple of letters from another word, like "contravene", that is defined in your country's **Interpretation Act/Law** -
 * as with "alcohol", the tool offers to auto-complete "contravene", this time as defined in the Interpretation Act/Law (again see the mock-up),
 * if you accept, the tool marks up "contravene" as a use of the defined term from the Interpretation Act/Law (so far the mock-up does not reflect this)
-* the same goes for words defined in legislation under which **subsidiary** legislation is being made, where the subsidiarly legislation inherits those definitions)  
+* the same goes for words defined in legislation under which **subsidiary** legislation is being made, where the subsidiarly legislation inherits those definitions).
 
 Or imagine you type the first couple of letters from a word you **haven't defined** but you **have used already**, maybe "sheep" -
 *	the tool offers "sheep" as one of the auto-complete options, but on the basis that will mark it up to reflect that it should have the same meaning as every other use of "sheep" in that draft,
 *	the tool also catches grammatical variations of the same word, and it raises a question when you use a synonym of a previously used word ("do you intend this to have a different meaning from its synonym X which you have already used?"),
-*	but the tool is set up to ignore logical words like "and" or trivial words for this purpose,
+*	but the tool is set up to ignore logical words like "and" or trivial words for this purpose.
 
 Or imagine you are drafting a provision to create a new **offence**, using standard wording -
-   *	so you pick a drop-down option for that or you type "co"
-   *	the tool offers to auto-complete "commits an offence and is liable to" marking that up as an offence-creation,
-   *	if you accept, the tool marks that up as an instance of offence-creation,
+   *	so you pick a drop-down option for that, or you type "co",
+   *	the tool offers to auto-complete "commits an offence and is liable to" (the standard wording now in Jersey),
+   *	if you accept, the tool marks that up as an instance of offence-creation.
 
 Or imagine you type "the Minster m" -
    *	the tool offers to auto-complete that as "the Minster may" or alternatively as "the Minster may by Order"
-   *	if you pick the one for an Order, the tool automatically **marks up** those words as **creating vires** for a subsidiary.
+   *	if you pick the one for an Order, the tool automatically **marks up** those words as **creating vires** for a subsidiary,
    *	it will also specify that the power is to make an Order,
-   *	and in Jersey it would specify which Minister has the power, on the footing that when you typed "the M" it suggested "the Minister" as the term you had already defined as "the Minister for X",
+   *	and in Jersey it would specify which Minister has the power, on the footing that when you typed "the M" it suggested "the Minister" as the term you had already defined as "the Minister for X".
 
 Or imagine you want do something that is covered by **Common Legislative Solutions**, or you look like you are doing it, and you pick a menu or the tool pops up an offer to use the Jersey standard wording for that kind of provision, as well as marking it up.
 
-## Not just auto-complete - help with "if" and "must" and other structures
+## Not just auto-complete - prompts help with "if" and "must" and other structures
 
 The tool would not use the sort of auto-complete in Word that irritates drafters by guessing what word you are going to use next. Instead, when you do something it recognises, it would offer a drop-down list, and allow you to you click on one of the choices (or ignore them). Nor is the tool just a glorified handler of a precedent bank.
 
 The tool would also help with constructing "**if**" provisions, by marking the conditions, the and/or between them, and the effects, and so on -
 *	you press enter to start a new paragraph (your system already automatically formats that as a paragraph and numbers it properly, and, if it is an XML system, already identifies that numbered para with metadata),
 *	the tool pops up an offer to help you in case you are making an **if-then** provision (which most provisions are),
-*	if you click "yes" then it helps you clarify in your own mind what the **conditions** and **effects** are and how the **and/or/not** elements work, as well as marking them up for you;
+*	if you click "yes" then it helps you clarify in your own mind what the **conditions** and **effects** are and how the **and/or/not** elements work, as well as marking them up for you.
 
 Also, when you type **"must"** (or pick it from a menu) -
 *	the tool prompts you to check that you have a clear enough link to the **consequences** (in another provision, or implied) if the "must" is **breached**,
 *	it asks if you are applying the "must" to a **person** (and asks if you are sure you want to use "must" if it isn't a person),
-*	if it thinks you have used **passive voice** after the "must", it asks you to check whether you really want to,
+*	if it thinks you have used **passive voice** after the "must", it asks you to check whether you really want to.
 
-And so on - it does not need to dictate drafting rules, unless they are compulsory in your office.
+And so on - the tool does not need to dictate drafting rules, unless they are compulsory in your office.
 
 The aim of the [**interactive mock-up**](https://crlp-jerseyldo.github.io/ilde-mockup/){:target="_blank"} is to make this clearer by allowing you to see an example working. We are also producing videos (and static screenshots) of mock-ups to illustrate other particular aspects of what the tool would be doing.
 
