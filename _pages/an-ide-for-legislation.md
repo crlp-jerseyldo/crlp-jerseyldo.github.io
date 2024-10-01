@@ -9,7 +9,7 @@ parent_url: /work/
 * TOC 
 {:toc}
 
-We have an interactive [**mock-up** of some of the functions of an imaginary **tool**](https://crlp-jerseyldo.github.io/ilde-mockup/){:target="_blank"} for legislative drafters - please try it out. 
+We have an interactive [**mock-up** of some of the functions of an imaginary **tool**](https://crlp-jerseyldo.github.io/ilde-mockup/){:target="_blank"} for legislative drafters - please **try it out** (and see the [**explanations** in our newsletter](https://substack.com/@digitallegislation/p-149448484){:target="_blank"}).
 
 ![A screenshot of the mock-up of a drafting tool](/images/ILDE-mockup-screenshot.png)
 
