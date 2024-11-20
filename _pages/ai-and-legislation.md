@@ -41,9 +41,10 @@ We reckon AI could also be helpful as part of the [tool for legislative drafters
 
 ![A screenshot of our work with Digital Jersey on AI from Google Cloud](/images/GoogleDJ.png)
 
-In the longer run we imagine LLMs being useful as the interface with the user, guiding the user to a relevant item of legislation for a logic-based reasoner to ask questions and give fully sourced answers, but perhaps with the LLM then giving a summary and suggesting further questions. We think of that as an AI and reasoner sandwich - see our [AI sandwich](https://osf.io/8v5bd){:target="_blank"} slides
+In the longer run we imagine LLMs being useful as the interface with the user, guiding the user to a relevant item of legislation for a logic-based reasoner to ask questions and give fully sourced answers, but perhaps with the LLM then giving a summary and suggesting further questions. We think of that as an **AI and reasoner sandwich** - see our [AI sandwich](https://osf.io/8v5bd){:target="_blank"} slides
 
 ![The AI and reasoner sandwich](/images/AIbun.png)
 
+We are planning to work in 2025 with the [**Centre for Computational Law**](https://cclaw.smu.edu.sg/projects-papers/research-project-computational-law){:target="_blank"} (at Singapore Management University) to see how their [L4 language](https://github.com/smucclaw){:target="_blank"} could form the basis of the reasoner filling in an AI sandwich of this sort.
 
 **This page is being updated.** You can find the documents we produce in our AI stream on OSF: <https://osf.io/bkjqx/>{:target="_blank"}.
