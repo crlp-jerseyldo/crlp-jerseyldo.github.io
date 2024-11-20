@@ -11,7 +11,9 @@ parent_url: /work/
 
 ## Mock-ups of a tool for legislative drafters
 
-We have an [**interactive mock-up** of some of the functions of an imaginary **tool**](https://crlp-jerseyldo.github.io/ilde-mockup/){:target="_blank"} for legislative drafters - please **try it out** (and see the [**explanations** in our newsletter](https://substack.com/@digitallegislation/p-149448484){:target="_blank"}).
+We are starting work with the [**Centre for Computational Law**](https://cclaw.smu.edu.sg/projects-papers/research-project-computational-law){:target="_blank"} (at Singapore Management University) to see how we can advance our ideas on legislative drafting tools, and ways for those tools to help readers of legislation, using their [L4 language](https://github.com/smucclaw){:target="_blank"}.
+
+Meanwhile we have an [**interactive mock-up** of some of the functions of an imaginary **tool**](https://crlp-jerseyldo.github.io/ilde-mockup/){:target="_blank"} for legislative drafters - please **try it out** (and see the [**explanations** in our newsletter](https://substack.com/@digitallegislation/p-149448484){:target="_blank"}).
 
 ![A screenshot of the mock-up of a drafting tool](/images/ILDE-mockup-screenshot.png)
 
