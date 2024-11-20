@@ -18,8 +18,9 @@ parent_url: /work/
 * For more on how we see this fitting into "**Rules as Code**" and computational law, see -
   * [Rules As Code: Drawing Out the Logic of Legislation for Drafters and Computers](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4299375){:target="_blank"}
   * [Research Note - Rules as Code](https://journals.latrobe.edu.au/index.php/law-in-context/article/view/134){:target="_blank"}
+  * our forthcoming notes on our plans for work with the [**Centre for Computational Law**](https://cclaw.smu.edu.sg/projects-papers/research-project-computational-law){:target="_blank"} (at Singapore Management University) to see how we can advance our ideas on parsing by using their [L4 language](https://github.com/smucclaw){:target="_blank"}
 * For why we believe this is still needed however much [AI](/work/ai-and-legislation) will improve, see -
-  * our presentation to CALC on a [hybrid "sandwich" approach](https://osf.io/8v5bd)){:target="_blank"} 
+  * our presentation to CALC on a [hybrid "sandwich" approach](https://osf.io/8v5bd){:target="_blank"} 
   * and Canada's pitch to [develop ‘rules as code’ chatbots](https://www.youtube.com/watch?v=UIz4TLBO4WQ){:target="_blank"}
 
 ## What do we mean by "parsing" the logical structure of a draft of legislation?
@@ -53,7 +54,8 @@ We have tried various ways of marking up this parsing on the imaginary examples,
 * [**Mermaid** Markdown](https://mermaid.js.org){:target="_blank"} to produce free online flowcharts
 * [AustLII **DataLex** ylegis and yscript](https://datalex.org){:target="_blank"} to produce free online consultations
 * **Excel** spreadsheets - to demonstrate what can be done by carving the original text into chunks in cells which are then used in Excel's IF formula - see our working examples in the **"Spreadsheets if-then"** folder in our ["Parsing exercises" stream](https://osf.io/qg4pb/){:target="_blank"} on OSF
-* we would like to have versions in other more sophisticated systems like [L4](https://l4-documentation.readthedocs.io/en/latest/index.html){:target="_blank"} from [Singapore Management University](https://cclaw.smu.edu.sg/about){:target="_blank"} and [Blawx](https://www.youtube.com/@JasonMorrisRTL/){:target="_blank"} from [Jason Morris](https://www.linkedin.com/in/jason-morris-09684023/){:target="_blank"} - watch this space
+* we would like to have versions in other more sophisticated systems like [Blawx](https://www.youtube.com/@JasonMorrisRTL/){:target="_blank"} from [Jason Morris](https://www.linkedin.com/in/jason-morris-09684023/){:target="_blank"} - watch this space
+* we will be working with the [**Centre for Computational Law**](https://cclaw.smu.edu.sg/projects-papers/research-project-computational-law){:target="_blank"} (at Singapore Management University) to produce a working model of a system for parsing provisions using their [L4 language](https://github.com/smucclaw){:target="_blank"}
 
 The point of capturing the logical structure is to be able to use it in a logical reasoner, which will give answers about what the effect is when the relevant conditions are met, without any AI hallucinations.
 
