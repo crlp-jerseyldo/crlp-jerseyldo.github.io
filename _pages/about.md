@@ -26,9 +26,10 @@ By finding an **easy-to-use** way for **legislative drafters** to mark up the lo
 
 ## What is the CRLP doing?
 
-- Our project runs in 2023 & 2024, and builds on the work we had [already](https://legislativedrafter.wordpress.com/2022/08/06/gathering-the-public-output-on-rac-from-jersey-ldo/){:target="_blank"} started in LDO to apply this to the way we draft legislation for Jersey.
-- We are currently working out how ["If-Then" structures](/work/parsing-exercises) fit in our legislation, like in the illustration above for an imaginary rule on feeding animals.
-- We are also working on a [mock-up of a tool for legislative drafters](/work/an-ide-for-legislation) to help them draft coherent [logical](/work/logic) structures and automatically mark them up to be computer-readable.
+- Our project runs in 2023, 2024 & the first half of 2025, and builds on the work we had [already](https://legislativedrafter.wordpress.com/2022/08/06/gathering-the-public-output-on-rac-from-jersey-ldo/){:target="_blank"} started in LDO to apply this to the way we draft legislation for Jersey.
+- We are currently embarking on work with the [**Centre for Computational Law**](https://cclaw.smu.edu.sg/projects-papers/research-project-computational-law){:target="_blank"} (Singapore Management University) to see how we can advance our ideas on drafting tools, reading tools, and AI assistance for a logical reasoner, all using their [L4 language](https://github.com/smucclaw){:target="_blank"}.
+- We have been working out how ["If-Then" structures](/work/parsing-exercises) fit in our legislation, like in the illustration above for an imaginary rule on feeding animals.
+- We have also produced a [mock-up of a tool for legislative drafters](/work/an-ide-for-legislation) to help them draft coherent [logical](/work/logic) structures and automatically mark them up to be computer-readable.
 - Other streams of the project include -
   - producing non-technical [guidance and training](/work/guidance) material for legislative drafters on what we have learnt about drafting itself,
   - working with [Digital Jersey](https://www.digital.je/){:target="_blank"} to see whether [Artificial Intelligence](/work/artificial-intelligence-and-legislation) can mark these "If-Then" structures, and
