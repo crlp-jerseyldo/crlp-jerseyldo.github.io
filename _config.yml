@@ -24,7 +24,7 @@ footer-links:
   github: 
   linkedin: 
   rss:
-  twitter: DigitalLawsJsy
+  twitter:
   youtube: # channel/<your_long_string> or user/<user-name>
   mastodon: # <your-mastodon-instance>/@<your-user-name> eg. fosstodon.org/@username
 
