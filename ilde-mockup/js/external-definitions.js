@@ -38,12 +38,36 @@ const extDefinitions = [
     },
 ];
 const undefinedTerms = [
-    parentLaw = {
-        "msg"   : "Undefined term used in parent law",
-        "terms" : [ "premises" ]
+    haveLaw = {
+        "msg"   : "Undefined term used in other law",
+        "terms" : [ {
+            "term" : "premises",
+            "law": {
+                "title": "<a href='https://www.jerseylaw.je/laws/current/Pages/05.850.aspx'>Tourism (Jersey) Law 1948</a>",
+            },
+            "lookup": [
+                { "title": "<a href='#'>Art. 10 Interpretation (Jersey) Law 1954</a>", "msg": "for meanings from a Law under which Regs are made"}
+            ]
+        } ],
+        "help"  : [
+            { 
+                "tool": "See",
+                "msg": "&#8220;<a href='#'>Current Drafting Practice</a>&#8221; for the same-word-same-meaning principle",
+            }
+        ]
     },
     noLaw = {
-        "msg"   : "Undefined term",
-        "terms" : [ "hotel", "misunderstanding", "warning", "price list" ]
+        "msg"   : "Undefined repeated term",
+        "terms" : [ "hotel", "misunderstanding", "warning", "price list"],
+        "help"  : [
+            {
+                "tool": "Search",
+                "msg": "other uses of the term in these <a href='#'>Regulations</a>",
+            },
+            { 
+                "tool": "See",
+                "msg": "&#8220;<a href='#'>Current Drafting Practice</a>&#8221; for the same-word-same-meaning principle",
+            }
+        ]
     }
 ];
