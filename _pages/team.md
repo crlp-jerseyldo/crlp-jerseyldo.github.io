@@ -17,7 +17,7 @@ Hello -- I am a legislative drafter working half time on the Computer-Readable L
 
 ----
 
-## Leon Qui
+## Leon Qiu
 
 ![Photo of Leon Qiu](/images/crlp-leon.jpg){:.avatar}
 
