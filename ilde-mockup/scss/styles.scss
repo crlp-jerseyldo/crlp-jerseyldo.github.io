@@ -211,6 +211,15 @@ h1 {
     --bs-popover-body-padding-x: 1rem;
     --bs-popover-body-padding-y: .5rem;
   }
+
+  &-undefined {
+    --bs-popover-border-color: var(--bs-gray-500);
+    --bs-popover-header-bg: var(--bs-gray-500);
+    --bs-popover-max-width: 600px;
+    --bs-popover-header-color: var(--bs-white);
+    --bs-popover-body-padding-x: 1rem;
+    --bs-popover-body-padding-y: .5rem;
+  }
 }
 
 .popover-body {
@@ -348,8 +357,15 @@ body.show-extdefinitions {
 }
 
 body.show-undefined {
-  em {
-    background: rgba($yellow, .25);
+  a.definition.undefined {
+    color: $gray-700 !important;
+    border-bottom: 2px dotted $gray-700;
+    cursor: pointer;
+    pointer-events: all;
+
+    &[aria-describedby] {
+      background: $gray-200;
+    }
   }
 }
 
