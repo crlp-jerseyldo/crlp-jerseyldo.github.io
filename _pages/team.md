@@ -23,6 +23,16 @@ It is really encouraging to see the range of people who have taken part in this 
 
 ----
 
+### Zoë Rillstone
+
+![Photo of Zoë Rillstone](/images/crlp-zoe.png){:.avatar}
+
+Hi! I am a Senior Legislative Drafter in [Jersey’s Legislative Drafting Office](https://www.gov.je/Government/NonexecLegal/StatesGreffe/Pages/LegislativeDraftingOffice.aspx){:target="_blank"} (LDO), where I have responsibility for (among other things) LDO’s editorial team, development of LDO’s style guidance, Jersey’s law revision programme, and the LDO’s technology. I have extensive drafting experience, in both the LDO and in [New Zealand’s Parliamentary Counsel Office](https://www.pco.govt.nz/){:target="_blank"}. I have drafted a wide range of legislation, in fields such as domestic abuse, tax, climate change, and animal welfare.
+
+I am interested in formal logic, Rules as Code, and AI and how they can help to find technological solutions to drafting problems. I’ve presented on these topics at conferences run by the [Commonwealth Association of Legislative Counsel](https://www.calc.ngo/){:target="_blank"} and the [FARI AI for the Common Good Institute](https://www.fari.brussels/){:target="_blank"}. I’m also fascinated by the similarities between the practices of coding and drafting – while still very much an amateur coder, I feel very strongly that there’s probably a lot of overlap between people who are able to code and people who are able to draft legislation.
+
+----
+
 ## Current external assitants
 
 ### Leon Qiu
