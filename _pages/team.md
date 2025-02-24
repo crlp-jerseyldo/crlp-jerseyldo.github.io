@@ -25,7 +25,7 @@ It is really encouraging to see the range of people who have taken part in this 
 
 ### Zoë Rillstone
 
-![Photo of Zoë Rillstone](/images/crlp-zoe.png){:.avatar}
+![Photo of Zoë Rillstone](/images/crlp-zoe.jpg){:.avatar}
 
 Hi! I am a Senior Legislative Drafter in [Jersey’s Legislative Drafting Office](https://www.gov.je/Government/NonexecLegal/StatesGreffe/Pages/LegislativeDraftingOffice.aspx){:target="_blank"} (LDO), where I have responsibility for (among other things) LDO’s editorial team, development of LDO’s style guidance, Jersey’s law revision programme, and the LDO’s technology. I have extensive drafting experience, in both the LDO and in [New Zealand’s Parliamentary Counsel Office](https://www.pco.govt.nz/){:target="_blank"}. I have drafted a wide range of legislation, in fields such as domestic abuse, tax, climate change, and animal welfare.
 
