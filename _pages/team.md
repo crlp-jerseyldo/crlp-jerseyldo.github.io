@@ -7,17 +7,25 @@ permalink: /team/
 * TOC 
 {:toc}
 
-## Matthew Waddington (Project Lead)
+## Current LDO staff
+
+### Matthew Waddington (Project Lead)
 
 ![Photo of Matthew Waddington](/images/crlp-matthew.png){:.avatar}
 
 [linktr.ee/MatthewWaddington](https://linktr.ee/MatthewWaddington){:target="_blank"}
 
-Hello -- I am a legislative drafter working half time on the Computer-Readable Legislation Project. I attended the European University Institute’s summer school on law and logic in 2018, because for a long time I had had a nagging feeling that legislative drafters and logicians have more in common than we realise. After that I took an interest in the “Rules as Code” movement which was just starting in New Zealand and then spread to Australia and worldwide. My main concern is to bring the perspective of legislative drafters  to computational law and Rules as Code (particularly the legislative drafters in Commonwealth countries, where we now share a rigorous approach to drafting). I aim to ensure that legislative drafters (and the people who make law and are subject to it) can benefit from the opportunities that technology is offering, as well as the insights that logic and computing can offer into how we can sharpen the discipline of our drafting. I have spoken at events for the Commonwealth Association of Legislative Counsel and elsewhere, and written for CALC’s journal “The Loophole” and other publications. I have also been teaching part time at Jersey’s Institute of Law, particularly on how to read legislation, as well as in modules on public law and jurisprudence. Previously I was deputy head of Jersey’s Legislative Drafting Office, and I worked as a legislative drafter in the UK’s Overseas Territory in Cyprus from 2004 (which means I have drafted for both entry to and exit from the EU). Before that I worked in England at the Law Commission, a university, community law centres and a private practice legal aid firm, after qualifying as a solicitor in 1990 (now non-practising).
+Hello -- I am a legislative drafter working half time on the Computer-Readable Legislation Project. I attended the [European University Institute’s summer school on law and logic](https://www.eui.eu/apply?id=summer-school-on-law-and-logic){:target="_blank"} in 2018, because for a long time I had had a nagging feeling that legislative drafters and logicians have more in common than we realise. After that I took an interest in the “Rules as Code” movement which was [just starting in New Zealand](https://www.digital.govt.nz/dmsdocument/95-better-rules-for-government-discovery-report/html){:target="_blank"} and then spread to Australia and worldwide. My main concern is to bring the perspective of legislative drafting offices to computational law and Rules as Code (particularly the legislative drafters and others in the [Commonwealth Association of Legislative Counsel](http://www.calc.ngo/){:target="_blank"}, where we now share a rigorous approach to drafting). I aim to ensure that legislative drafters (and the people who make law and are subject to it) can benefit from the opportunities that technology is offering, as well as the insights that logic and computing can offer into how we can sharpen the discipline of our drafting. I have spoken at events for the [Commonwealth Association of Legislative Counsel and elsewhere, and written for CALC’s journal “[The Loophole](https://www.calc.ngo/publications/loopholes){:target="_blank"}” and other publications. 
+
+I have also been teaching part time at [Jersey’s Institute of Law](https://www.lawinstitute.ac.je/){:target="_blank"}, particularly on how to read legislation, as well as in modules on public law and jurisprudence. Previously I was deputy head of [Jersey’s Legislative Drafting Office](https://www.gov.je/Government/NonexecLegal/StatesGreffe/Pages/LegislativeDraftingOffice.aspx){:target="_blank"}, and I worked as a legislative drafter in the UK’s Overseas Territory in Cyprus from 2004 (which means I have drafted for both entry to and exit from the EU). Before that I worked in England at the Law Commission, a university, community law centres and a private practice legal aid firm, after qualifying as a solicitor in 1990 (now non-practising).
+
+It is really encouraging to see the range of people who have taken part in this project in different ways, each bringing their own different approaches. Thanks everyone!
 
 ----
 
-## Leon Qiu
+## Current external assitants
+
+### Leon Qiu
 
 ![Photo of Leon Qiu](/images/crlp-leon.jpg){:.avatar}
 
@@ -31,7 +39,9 @@ Joining the CRLP felt like a natural step in my quest to contribute to this evol
 
 ----
 
-## Laurence Diver
+## Former members
+
+### Laurence Diver
 
 ![Photo of Laurence Diver](/images/crlp-laurence.jpg){:.avatar}
 
@@ -45,7 +55,7 @@ My work at the crossover of design, democracy and the Rule of Law is reflected i
 
 ----
 
-## Margaux McQuilton
+### Margaux McQuilton
 
 ![Photo of Margaux McQuilton](/images/crlp-margaux.png){:.avatar}
 
