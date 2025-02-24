@@ -4,7 +4,7 @@ title: Our work
 permalink: /work/
 ---
 
-**These pages are being updated.** You can find a full archive on OSF: <https://osf.io/yzf6x/>{:target="_blank"}.
+We gave a review of our workstreams at the Commonwealth Association of Legislative Counsel 2024 conference in Jamaica - see our [**CRLP slides**](https://osf.io/erxby){:target="_blank"} (on our OSF site). We will soon post a link here to our forthcoming presentation to the [CALC-PCC 2025 regional conference in Perth](https://www.calc.ngo/sites/default/files/APCC-CALC%202025%20regional%20drafting%20conference%20program%20%28as%20at%2019-2-25%29_0.pdf){:target="_blank"} (Western Australia).
 
 ----
 
@@ -32,63 +32,6 @@ Producing illustrative mock-ups, with a basic specification, for a potential too
 
 ![Animation showing basic highlighting of a provision](/images/basic-highlighting.gif){:.my-l.frame} *Animation showing basic highlighting of an offence provision*
 
-
-
-
-
-<!---
-
-Parsing exercises – the imaginary & real examples we have been working on – we will post versions with different forms of mark-up, and in Mermaid, QnA & Excel, and possibly in DataLex, L4 and Blawx (see our previous newsletter)
-
-
-
-
-[Stream 1](#stream-1-lorem-ipsum), [Stream 2](#stream-2-dolor-sit-amet), [Stream 3](#stream-3-consectetur-adipiscing) and [Stream 4](#stream-4-dolor-sit-amet).
-
 ----
 
-## Stream 1 (lorem ipsum)
-
-Lorem ipsum dolor sit amet
-
-- some more
-- details about
-- Stream 1
-
-### Publications
-
-- [Publication 1](https://osf.io){:target="_blank"}
-- [Publication 2](https://osf.io){:target="_blank"}
-- [Publication 3](https://osf.io){:target="_blank"}
-
-----
-
-## Stream 2 (dolor sit amet)
-
-Consectetur adipiscing elit
-
-- more details
-- about this
-- particular stream
-
-----
-
-## Stream 3 (consectetur adipiscing)
-
-Nam eleifend enim ac ipsum ultrices
-
-- pellentesque leo diam
-- ultricies sit amet lectus nec
-- tempus semper enim
-
-----
-
-## Stream 4 (dolor sit amet)
-
-Vestibulum venenatis est sed scelerisque molestie. 
-
-- pellentesque quis vulputate nulla
-- ac tristique leo
-- vehicula sit amet risus id, ornare placerat augue
-
---->
+**These pages are updated when we have news** - you can find a full archive on OSF: <https://osf.io/yzf6x/>{:target="_blank"}.
