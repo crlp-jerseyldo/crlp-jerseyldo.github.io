@@ -33,6 +33,16 @@ I am interested in formal logic, Rules as Code, and AI and how they can help to 
 
 ----
 
+### Brenda De Louche
+
+![Photo of Brenda De Louche](/images/crlp-brenda.jpg){:.avatar}
+
+Hello! I joined the Editorial and Technology Team at the Legislative Drafting Office in 2020. I had many years of experience working within the legal sector, but my technical knowledge remained very much at end user status. Matthew has always been very keen for me to become involved with as much technical work as possible. I started by working with Margaux exploring parsing legislative provisions into Excel and seeing how far we could take it. I am also working in [DocAssemble[(https://docassemble.org/){:target="_blank"} to create an app for [Common Legislative Solutions](/work/common-legislative-solutions) (Licensing) where users are led through an interview type scenario and the answers given will shape a model draft provision and create an Excel spreadsheet to parse the relevant provisions into.
+
+Being involved in this project has revealed a passion for logic and coding that I was not expecting. I am now undertaking study in Python, HTML, CSS and Javascript to name a few and I am loving every minute!
+
+----
+
 ## Current external assitants
 
 ### Leon Qiu
