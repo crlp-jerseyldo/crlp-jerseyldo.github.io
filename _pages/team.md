@@ -23,6 +23,20 @@ It is really encouraging to see the range of people who have taken part in this 
 
 ----
 
+### Kate Hannah
+
+![Photo of Kate Hannah](/images/crlp-kate.jpg){:.avatar}
+
+Hi – I am a consultant and I have worked with the drafting office in Jersey for more than 6 years. Previously deeply involved in the [NSW Parliamentary Counsel’s Office](https://pco.nsw.gov.au/){:target="_blank"} in editorial, production and database roles, I am now mostly working on the technical side. This has lots of elements, but for computer-readable legislation, it is mostly about how far we can push Word…
+
+So I have been using VBA to add provision IDs to legislation in Word using bookmarks, and then using these to experiment with rollovers and links for definitions, cross-reference links, maybe even automated amendment markup…and anything else we can think of. Once structures or IDs are created (ie components become data), a lot of possibilities appear.
+
+In another strand, along with Zoë I developed an app on [DocAssemble](https://docassemble.org/){:target="_blank"} for helping departments create drafting instructions for fee increases, which is a nice illustration of how the options to try new ways of doing things are nice and open.
+
+In more general terms, I am interested in how technology can support the work of a drafting office and the production of legislation generally. And how people can make better use of the technology they already have as well as looking to innovate in what they do, whether that is computer-readable legislation or some other approach.
+
+----
+
 ### Zoë Rillstone
 
 ![Photo of Zoë Rillstone](/images/crlp-zoe.jpg){:.avatar}
