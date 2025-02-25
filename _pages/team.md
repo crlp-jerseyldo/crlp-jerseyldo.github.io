@@ -31,7 +31,7 @@ Hi – I am a consultant and I have worked with the drafting office in Jersey fo
 
 So I have been using VBA to add provision IDs to legislation in Word using bookmarks, and then using these to experiment with rollovers and links for definitions, cross-reference links, maybe even automated amendment markup…and anything else we can think of. Once structures or IDs are created (ie components become data), a lot of possibilities appear.
 
-In another strand, along with Zoë I developed an app on [DocAssemble](https://docassemble.org/){:target="_blank"} for helping departments create drafting instructions for fee increases, which is a nice illustration of how the options to try new ways of doing things are nice and open.
+In another strand, along with Zoë I developed an app on [DocAssemble](https://docassemble.org/){:target="_blank"} for helping departments create drafting instructions for fee increases, which is a nice [illustration](https://www.youtube.com/watch?v=bE44gFDzx5o){:target="_blank"} of how the options to try new ways of doing things are nice and open.
 
 In more general terms, I am interested in how technology can support the work of a drafting office and the production of legislation generally. And how people can make better use of the technology they already have as well as looking to innovate in what they do, whether that is computer-readable legislation or some other approach.
 
@@ -57,7 +57,7 @@ Being involved in this project has revealed a passion for logic and coding that 
 
 ----
 
-## Current external assitants
+## Current external assistants
 
 ### Leon Qiu
 
@@ -110,3 +110,17 @@ My work at the crossover of design, democracy and the Rule of Law is reflected i
 Hello! I'm thrilled to share my journey with you! Currently pursuing a French and English Law double degree at [Jersey’s Institute of Law](https://www.lawinstitute.ac.je/){:target="_blank"}, I crossed paths with Matthew during one of my modules. He introduced me to his fascinating Computer-readable Legislative project, igniting my interest instantly. Despite lacking computer skills and coding experience initially, I dived into the digital realm during a six-week summer internship. My tasks involved parsing legislative provisions, identifying structures, and then using tools like [Mermaid](https://mermaid.js.org/){:target="_blank"}, [QnA](https://www.qnamarkup.org/){:target="_blank"}, Excel, and [DataLex](https://austlii.community/wiki/DataLex){:target="_blank"}. Following this enriching experience, I eagerly continued the project for an additional six months, expanding my skills. In December 2023, I organised an event on “The Future of AI & Law,” bringing together IT and law students to find different ways to digitise legislation. Following this, I launched an ELSA essay competition focused on AI and law, leading to being [shortlisted for the Jersey TechAwards](https://twitter.com/InstofLawJersey/status/1757399603832406368 "https://twitter.com/instoflawjersey/status/1757399603832406368"){:target="_blank"}.
 
 Reflecting on this journey, I began with zero computing experience but gained valuable skills. I hope my story encourages others to pursue their interests, embracing the learning curve. If given the chance, I would eagerly jump into another computing and law project.
+
+----
+
+### Flora Leather 
+
+![Photo of Flora Leather ](/images/crlp-flora.jpg){:.avatar}
+
+Hi there. I am a Senior Assistant Policy Officer in the [Government of Jersey's Cabinet Office](https://www.gov.je/Government/Departments/TheCabinetOffice/pages/index.aspx){:target="_blank"}. In the summer of 2023, after graduating from my BA Liberal Arts and Natural Sciences degree, I interned with the Legislative Drafting Office and assisted Matthew on the CRLP for six weeks. 
+
+I came to this project with no prior computing experience, or even a good handle on legislation. However, I found that my transdisciplinary undergraduate dissertation (which blended linguistics, political communications theories and social anthropology) had employed skills that I could transfer to this project. The dissertation engaged in a critical discourse analysis of 'othering' language in media discourse on a Free Trade Agreement between India and the UK. This involved inductive and deductive coding of various texts, using a software called [NVivo](https://lumivero.com/products/nvivo/){:target="_blank"}. This ignited a passion in me for critical analysis of texts and allowed me to develop some skills that I was able to put to the test when I got involved in CRLP. After a propositional logic '101' crash course, I began encoding legislation into IF/THEN patterns within excel formulae and using a simple binary yes/no answering system to engage with the legislation. This principle works but only with more basic pieces of legislation. 
+
+In exploring other tools further, I engaged with [Adam Wyner](https://www.swansea.ac.uk/staff/a.z.wyner/){:target="_blank"} from Swansea University regarding [GATE](https://gate.ac.uk/){:target="_blank"} (General Architecture for Text Engineering). Adam recommended GATE, an open-source software toolkit which he has used to read and process legal text. I tried a similar process myself, using [Docalysis](https://docalysis.com/){:target="_blank"}, although we found that AI's eagerness to please at times resulted in inaccurate answers, or at worst, full-blown hallucinations! This also precipitated a need to refine the prompts to AI, for which I attended a prompt-engineering lecture hosted by Digital Jersey. It was encouraging to see all the innovation in this field and contribute even a small amount to the CRLP's progress! 
+
+On starting my policy role the following month, I found that the CRLP had equipped me with a strong ability to read and analyse legislation myself, a skill I use daily in my job. (And being able to confidently use advanced excel formulae is also something that never goes amiss!)
