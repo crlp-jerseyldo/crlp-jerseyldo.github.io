@@ -73,6 +73,18 @@ Joining the CRLP felt like a natural step in my quest to contribute to this evol
 
 ----
 
+### Garret Lyne
+
+![Photo of Garret Lyne](/images/crlp-garret.jpg){:.avatar}
+
+Hello everyone! I’m Garret and I recently joined the CRLP as an external assistant, having graduated in 2024 with a degree in International Law and International Relations from the University of Edinburgh and Sciences Po Paris. Whilst working on this project, I am also currently interning at the Human Rights Directorate of the Council of Europe in Strasbourg, France. 
+ 
+My interest for the work of the CRLP stems from two particularly fascinating courses which I took in my final year in Edinburgh. The first [course](https://scott-wortley.medium.com/legislation-honours-2024-class-drafting-assessment-eb38e989ffcb){:target="_blank"} succinctly entitled, "[Legislation](http://www.drps.ed.ac.uk/20-21/dpt/cxlaws10221.htm){:target="_blank"}", gave a deep insight into the intricate (and exceptionally difficult!) art of writing clear and effective legislation from the perspective of [Scottish Parliamentary drafters](https://www.gov.scot/about/how-government-is-run/directorates/parliamentary-counsel-office/){:target="_blank"}. Meanwhile, my second module on "[Robotics & the Law](http://www.drps.ed.ac.uk/20-21/dpt/cxlaws10196.htm){:target="_blank"}" examined the growing role and subsequent legal implications of technology, especially artificial intelligence, in a wide range of areas, including the legal sector.
+ 
+However, it was only when my Legislation lecturer, [Scott Wortley](https://www.law.ed.ac.uk/people/mr-scott-wortley){:target="_blank"}, introduced me to Matthew and his CRLP that I recognised the potential for technology to be harnessed as a tool to facilitate the legislative drafting process and to help demystify legislation for all end users. I am therefore very excited to have joined the project, and I look forward to learning more about legal tech, coding and legislation along the way!
+
+----
+
 ## Former members
 
 ### Laurence Diver
