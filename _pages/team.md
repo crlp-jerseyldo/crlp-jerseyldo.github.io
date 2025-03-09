@@ -87,15 +87,15 @@ However, it was only when my Legislation lecturer, [Scott Wortley](https://www.l
 
 ### Stephen Ausden
 
-![Photo of Stephen Ausden](/images/crlp-stephen.png){:.avatar}
+![Photo of Stephen Ausden](/images/crlp-stephen.jpg){:.avatar}
 
 [LinkedIn](https://www.linkedin.com/in/stephen-ausden/){:target="_blank"}
 
-Hello there! I'm Stephen, and I couldn't be more excited to be involved with the CRLP project. With over 17 years of experience in the IT industry, performing a variety of roles, I've always had a knack for spotting opportunities where technology can make a difference. Early in my career, while working in the IT department of a local law firm, I realized the immense potential for technology to revolutionize legal practices. So, after many years and exciting projects, I am now studying law at the [Institute of Law, Jersey](https://www.lawinstitute.ac.je/){:target="_blank"}, and the [University of London](https://www.london.ac.uk/study/courses/undergraduate/llb-bachelor-laws){:target="_blank"}. 
+Hello there! I’m Stephen, and I couldn’t be more excited to be involved with the CRLP project. Over the last 17 years of focus in the IT industry, performing a variety of roles, I discovered a knack for spotting opportunities where technology can make a difference. Early in my career, while working in the IT department of a local law firm, I realised the immense potential for technology to revolutionise legal practices. So, after many years and exciting projects, I am now studying law at the [Institute of Law, Jersey](https://www.lawinstitute.ac.je/){:target="_blank"}, with the [University of London](https://www.london.ac.uk/study/courses/undergraduate/llb-bachelor-laws){:target="_blank"}. 
  
-As an External Assistant at CRLP, I bring my technical expertise to the table, offering insightful advice, tackling a variety of tasks, and conducting in-depth research to support our projects. What drives me is a relentless curiosity to explore how technology can reshape the legal landscape, making it more efficient and accessible for everyone.
+As an External Assistant at CRLP, I bring my technical expertise to the table — offering insightful advice, tackling a variety of tasks, and conducting in-depth research to support the project. What drives me is a relentless curiosity to explore how technology can reshape the legal landscape, making it more efficient and accessible for everyone.
  
-When I'm not immersed in the world of tech and law, you'll find me keeping up with the latest tech trends, getting lost in a captivating novel, or discussing political ideas and history. Joining the CRLP team has been a perfect match for me, and I'm thrilled to be part of a mission that pushes the boundaries in the digital age.
+When I’m not immersed in the world of tech and law, you’ll find me keeping up with the latest tech trends, getting lost in a captivating novel, or discussing political ideas and history. Joining the CRLP team has been a perfect match for me, and I’m thrilled to be part of a mission that pushes the boundaries in the digital age.
 
 ----
 
