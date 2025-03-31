@@ -57,7 +57,7 @@ Being involved in this project has revealed a passion for logic and coding that 
 
 ----
 
-## Current external assistants
+## Current external assistants & volunteers
 
 ### Leon Qiu
 
@@ -96,6 +96,22 @@ Hello there! I’m Stephen, and I couldn’t be more excited to be involved with
 As an External Assistant at CRLP, I bring my technical expertise to the table — offering insightful advice, tackling a variety of tasks, and conducting in-depth research to support the project. What drives me is a relentless curiosity to explore how technology can reshape the legal landscape, making it more efficient and accessible for everyone.
  
 When I’m not immersed in the world of tech and law, you’ll find me keeping up with the latest tech trends, getting lost in a captivating novel, or discussing political ideas and history. Joining the CRLP team has been a perfect match for me, and I’m thrilled to be part of a mission that pushes the boundaries in the digital age.
+
+----
+
+### Manon Carrere
+
+![Photo of Manon Carrere](/images/crlp-manon.jpg){:.avatar}
+
+[LinkedIn](https://www.linkedin.com/in/manon-carrere-/){:target="_blank"}
+
+Hello! My name is Manon Carrere, and I recently joined the Computer-Readable Legislation Project as a volunteer. I am from France and hold a [double Bachelor’s degree in law and languages](https://formations.univ-smb.fr/fr/catalogue/licence-XA/droit-economie-gestion-DEG/double-licence-droit-langues-etrangeres-appliquees-KGXVJ1Y0.html){:target="_blank"}, along with a [Master’s degree in International and European Law](https://www.univ-lille.fr/formations/fr-00002492){:target="_blank"} from the University of Lille, in France. My academic journey has been enriched by studying both French and UK law, notably during my Erasmus semester at Glasgow University.
+
+Professionally, I have completed a [traineeship at the European Union Agency for Fundamental Rights](https://fra.europa.eu/en/about-fra/recruitment/traineeship){:target="_blank"} in Vienna, engaging extensively with projects at the crossroads of law and digital technology. Currently, I am a trainee at the [Council of Europe in Strasbourg, in the Digital Development and Governance Unit](https://www.coe.int/en/web/digital-governance/thematic-action){:target="_blank"}, focusing specifically on artificial intelligence.
+
+I am motivated by the innovative approach of the CRLP, and I decided to volunteer to further explore how technology can be integrated into legislative processes. In this project, I am primarily involved with the linguistic aspects, leveraging my background in law and languages. This role not only aligns with my previous experiences but also offers a practical application of my interests in legal tech and language precision.
+
+I am therefore very excited to learn more about coding and legislation!
 
 ----
 
