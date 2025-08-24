@@ -85,6 +85,8 @@ However, it was only when my Legislation lecturer, [Scott Wortley](https://www.l
 
 ----
 
+## Former members
+
 ### Stephen Ausden
 
 ![Photo of Stephen Ausden](/images/crlp-stephen.jpg){:.avatar}
@@ -114,8 +116,6 @@ I am motivated by the innovative approach of the CRLP, and I decided to voluntee
 I am therefore very excited to learn more about coding and legislation!
 
 ----
-
-## Former members
 
 ### Laurence Diver
 
