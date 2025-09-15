@@ -11,14 +11,25 @@ parent_url: /work/
 
 ## Mock-ups of a tool for legislative drafters
 
-We are starting work with the [**Centre for Computational Law**](https://cclaw.smu.edu.sg/projects-papers/research-project-computational-law){:target="_blank"} (at Singapore Management University) to see how we can advance our ideas on legislative drafting tools, and ways for those tools to help readers of legislation, using their [L4 language](https://github.com/smucclaw){:target="_blank"}.
+### Visualiser tool - how drafters can use it
 
-Meanwhile we have an [**interactive mock-up** of some of the functions of an imaginary **tool**](https://crlp-jerseyldo.github.io/ilde-mockup/){:target="_blank"} for legislative drafters - please **try it out** (and see the [**explanations** in our newsletter](https://substack.com/@digitallegislation/p-149448484){:target="_blank"}).
+For the first half of 2025 we secured funding from the [Jersey Legal Information Board](https://www.jerseylaw.je/Pages/About.aspx){:target="_blank"} to work with the [**Centre for Digital Law**](https://cdl.smu.edu.sg/projects/research-project-computational-law-rpcl){:target="_blank"} at Singapore Management University on several ideas to see what [their **L4** computer language](https://github.com/smucclaw){:target="_blank"} (a “domain specific language” or DSL for law) can do with our project. SMU have finished their research, and L4 is now being taken forward by [Legalese](https://l4.legalese.com/){:target="_blank"}.
+
+[![Farmer example as a draft and in L4 visualiser](/images/FarmerDraftToMap.png)](https://osf.io/4hfbx){:target="_blank"} *Farmer example as a draft and in L4 visualiser*
+
+- See [**our slides for CALC Belfast 2025**](https://osf.io/4hfbx){:target="_blank"}, this [**demonstration video**](https://youtu.be/_VZ4_FY_Nqo){:target="_blank"} and [**interactive example**](https://jl4.legalese.com/?id=8831700c-a1ee-4c21-9365-1aa410a977d0){:target="_blank"} and [**instructions**](https://osf.io/adwe6){:target="_blank"} for how a legislative drafter can put a draft provision into the **interactive, free, web-based** (no downloading needed) [**visualiser**](https://jl4.legalese.com/){:target="_blank"} that our Singapore colleagues built for us. 
+- The slides and video show how a **legislative drafter can produce** an if-then version of a draft provision, which can be automatically converted into L4 to produce a flowchart-like logical map that a reader can interact with to guide them through the legislation. This limited use of L4 is a way in which legislative drafters, with no technical knowledge (just the grammar, logic and paragraphing that they use every day), can produce working code that they and their policy officers could use to check drafts. That helps drafters to picture the potential benefits of using a fuller system - elsewhere on the same site you can see examples of L4 being used more fully, including for [Jersey's Charities Law](https://github.com/smucclaw/l4-ide/blob/ian/je-charities-3/jl4/experiments/jerseyCharities2.l4){:target="_blank"}.
+- For more on this see [our slides for RaC Guild Sept 2025](https://osf.io/axydq){:target="_blank"} (or [here](https://docs.google.com/presentation/d/1MRs8hJY45ptGslava2WvQGvPlhp9sp59l1NbNU5ruYk/edit?usp=sharing){:target="_blank"}), & [our Substack **post**](https://substack.com/@digitallegislation/p-171875282){:target="_blank"} (& earlier [**report**](https://osf.io/x43td){:target="_blank"}). 
+
+
+### Wider idea of an "IDE" for legislative drafters
+
+We have an [**interactive mock-up** of some of the functions of an imaginary **tool**](https://crlp-jerseyldo.github.io/ilde-mockup/){:target="_blank"} for legislative drafters - please **try it out** (and see the [**explanations** in our newsletter](https://substack.com/@digitallegislation/p-149448484){:target="_blank"}).
 
 ![A screenshot of the mock-up of a drafting tool](/images/ILDE-mockup-screenshot.png)
 
 It is a work in progress and we will add separate videos to illustrate further functions - 
-* For now we have [notes on our OSF site](https://osf.io/3qrx6){:target="_blank"} about the idea of expanding the defined terms hyperlinks to cover undefined repeated terms (which should have the same meaning).
+* We have [notes on our OSF site](https://osf.io/3qrx6){:target="_blank"} about the idea of expanding the defined terms hyperlinks to cover undefined repeated terms (which should have the same meaning).
 * We also have a PowerPoint showing how the tool in the mock-up might look if it handled those [repeated undefined terms](https://osf.io/uzw5d){:target="_blank"},
 * Another PowerPoint shows how it might look if it handled marking up ["must" and "must not"](https://osf.io/fc3js){:target="_blank"} provisions to higlight their elements and link to the consequence of a breach.
 
@@ -26,6 +37,13 @@ We want to show legislative drafters how a possible tool could work to help them
 * We aim to do that by producing **illustrative mock-ups**, plus a basic specification as a starting point for any interested developers.
 * We want **legislative drafters** to imagine an equivalent for them of the **"Integrated Development Environments"** that help programmers to code (ideally with a tool sitting inside our Word templates or XML editors). We want to avoid legislative drafters imagining we mean they have to draft their text first and then go back over it to mark it up.
 * In the longer term we would like to see **developers** create these drafting tools, starting with our basic spec. But for now we are just illustrating what a tool could look like, to set the ball rolling.
+
+This work also builds on the idea of creating a **unique identifier for each paragraph** of text in legislation, which is computer-readable but also makes sense to human readers (see below). 
+* Jersey's Legislative Drafting Office, like many others in the Commonwealth, still uses Word (rather than XML, used by larger offices). So our [innovator](https://www.youtube.com/watch?v=fThIGAABLyg){:target="_blank"} and Word-wrangler, Kate Hannah, has been developing a Word version of the IDs with a Word tool to enable legislative drafters to use the IDs to mark up each definition and defined term, so that the definition pops up when you move the mouse over it, with a link to the definition provision.
+* That can apply to definitions within the same piece of legislation (we have now seen [Kenya’s planned new site](https://new.kenyalaw.org/akn/ke/act/2022/29/eng@2022-07-29){:target="_blank"} will do this).
+* But it can also apply to the definitions in your **Interpretation Act/Law** (and in other legislation under which this legislation is made, if definitions flow down that way in your jurisdiction). It should then feed automatically from the Word drafts into the html for our web pages (& to a more limited extent into our automatically-produced pdfs for our website).
+
+![A screenshot of pop-ups and links for defined terms](/images/DefinitionPopups.jpg)
 
 ## Building on related work
 
@@ -36,6 +54,10 @@ We want to show legislative drafters how a possible tool could work to help them
 * We want to build on Schwartz & others (2023) [“Design Principles for Integrated **Legislation** Drafting Environment”](https://ssrn.com/abstract=4556959){:target="_blank"}, who were the first to spell out what this could mean for legislative drafting. We want to adapt their approach for the Commonwealth style of drafting.
 * In the EU there is the [LEOS](https://joinup.ec.europa.eu/collection/justice-law-and-security/solution/leos-open-source-software-editing-legislation){:target="_blank"} editing tool. They are looking at adding functions to help EU drafters and to allow them to mark up more elements in [their Akoma Ntoso]([https://op.europa.eu/fr/web/eu-vocabularies/akn4eu](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http%3A%2F%2Fpublications.europa.eu%2Fresource%2Fdataset%2Fakn4eu)){:target="_blank"} system (potentially using LegalRuleML) - see ["Drafting legislation in the era of AI and digitisation"](https://joinup.ec.europa.eu/collection/justice-law-and-security/solution/leos-open-source-software-editing-legislation/document/drafting-legislation-era-ai-and-digitisation){:target="_blank"} and ["Overview of smart functionalities in drafting legislation in LEOS"](https://joinup.ec.europa.eu/collection/justice-law-and-security/solution/leos-open-source-software-editing-legislation/document/overview-smart-functionalities-drafting-legislation-leos){:target="_blank"}. The UK's [LawMaker](https://www.youtube.com/watch?v=WBmwiHY4Q-Q&t=2s){:target="_blank"} drafting system is XML-based, also using Akoma Ntoso, and has also been looking at LegalRuleML.
 * Just before this project started, we met Oswald Maskens who demonstrated a model he had made, gave us a talk on his ideas about leveraging tools for software engineering in legal corpus management, and showed us VS Code as an example of what an IDE could offer for legislative drafters.
+* In February 2023, Hamish Fraser sent a [Love letter to Parliamentary Counsel of the World](https://hamish.dev/a-love-letter-to-the-parliamentary-counsel-of-the-world){:target="_blank"} (& some [sequels](https://hamish.dev/){:target="_blank"}, including “Happy Valentine's Day, Nerds 💌”). The idea is that every paragraph of text should have its own unique ID which captures the structure (of sections & sub-sections, etc.) in a human-readable way. Once you do that, unexpected possibilities open up. Hamish worked in [Syncopate](https://www.syncopatelab.com/){:target="_blank"} to make [DocRef](https://docref.org/){:target="_blank"} with nested, understandable & manageable IDs like –
+  * “[P2-S10-s65-l1-a-ii](https://docref.org/nz/ssar/171/en/?annotation=OpenFisca-Aotearoa#P2-S10-s65-l1-a-ii){:target="_blank"}” for [reg 65(a)(ii) in Subpart 10 of Part 2](https://www.legislation.govt.nz/regulation/public/2018/0202/latest/whole.html#LMS96415){:target="_blank"}
+  * which in Jersey, where we have Articles instead of sections (& we have not gone for IDs for Parts, as they are not part of the numbering of actual provisions),  gives IDs like - “art_18_p_2_sp_b_cl_iii” – for [Art 18(2)(b)(iii)](https://www.jerseylaw.je/laws/current/l_41_2014#_Toc181797850){:target="_blank"}
+  * see above for how we are building on this to give pop-ups for defined terms.
 
 ## What would the imaginary tool do?
 * The tool would **help** the drafter to be **rigorous** in creating (and marking up for computer readability) -
