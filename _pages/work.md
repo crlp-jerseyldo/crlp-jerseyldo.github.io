@@ -4,7 +4,7 @@ title: Our work
 permalink: /work/
 ---
 
-We gave a review of our workstreams at the Commonwealth Association of Legislative Counsel 2024 conference in Jamaica - see our [**CRLP slides**](https://osf.io/erxby){:target="_blank"} (on our OSF site). We will soon post a link here to our forthcoming presentation to the [CALC-PCC 2025 regional conference in Perth](https://www.calc.ngo/sites/default/files/APCC-CALC%202025%20regional%20drafting%20conference%20program%20%28as%20at%2019-2-25%29_0.pdf){:target="_blank"} (Western Australia).
+For review of our workstreams, see our  [**2024 slides**](https://osf.io/erxby){:target="_blank"} for the Commonwealth Association of Legislative Counsel 2024 conference in Jamaica, and our [**2025 update slides**](https://osf.io/fqmcn){:target="_blank"} for the [CALC-PCC 2025 regional conference in Perth](https://www.calc.ngo/sites/default/files/APCC-CALC%202025%20regional%20drafting%20conference%20program%20%28as%20at%2019-2-25%29_0.pdf){:target="_blank"} (Western Australia).
 
 ----
 
