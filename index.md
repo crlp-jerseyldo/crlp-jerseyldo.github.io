@@ -10,7 +10,7 @@ For more, see [**About the project**](/about), [**Our work**](/work), and the [*
 
 **Latest news** - 
 
-[**Slides for LVI2025, Sydney, 13 Nov 2025**](https://osf.io/4hfbx){:target="_blank"}
+[**Slides for LVI2025, Sydney, 13 Nov 2025**](https://osf.io/axr4t){:target="_blank"}
 
 **Drafter-friendly logic mapping tool** - See [our slides for CALC Belfast 2025](https://osf.io/4hfbx){:target="_blank"}, this [**demonstration video**](https://youtu.be/_VZ4_FY_Nqo){:target="_blank"} and [**interactive example**](https://jl4.legalese.com/?id=8831700c-a1ee-4c21-9365-1aa410a977d0){:target="_blank"} and [**instructions**](https://osf.io/adwe6){:target="_blank"} for how a legislative drafter can put a draft provision into the **interactive, free, web-based** (no downloading needed) [**visualiser**](https://jl4.legalese.com/){:target="_blank"} that our Singapore colleagues built for us. 
 - The slides and video show how a **legislative drafter can produce** an if-then version of a draft provision, which can be automatically converted into L4 to produce a flowchart-like logical map that a reader can interact with to guide them through the legislation. This limited use of L4 is a way in which legislative drafters, with no technical knowledge (just the grammar, logic and paragraphing that they use every day), can produce working code that they and their policy officers could use to check drafts. That helps drafters to picture the potential benefits of using a fuller system - elsewhere on the same site you can see examples of L4 being used more fully, including for [Jersey's Charities Law](https://github.com/smucclaw/l4-ide/blob/ian/je-charities-3/jl4/experiments/jerseyCharities2.l4){:target="_blank"}.
