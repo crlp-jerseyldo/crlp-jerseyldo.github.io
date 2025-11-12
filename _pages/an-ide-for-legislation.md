@@ -9,9 +9,7 @@ parent_url: /work/
 * TOC 
 {:toc}
 
-## Mock-ups of a tool for legislative drafters
-
-### Visualiser tool - how drafters can use it
+## Visualiser tool - how legislative drafters can use it
 
 For the first half of 2025 we secured funding from the [Jersey Legal Information Board](https://www.jerseylaw.je/Pages/About.aspx){:target="_blank"} to work with the [**Centre for Digital Law**](https://cdl.smu.edu.sg/projects/research-project-computational-law-rpcl){:target="_blank"} at Singapore Management University on several ideas to see what [their **L4** computer language](https://github.com/smucclaw){:target="_blank"} (a “domain specific language” or DSL for law) can do with our project. SMU have finished their research, and L4 is now being taken forward by [Legalese](https://l4.legalese.com/){:target="_blank"}.
 
@@ -19,10 +17,34 @@ For the first half of 2025 we secured funding from the [Jersey Legal Information
 
 - See [**our slides for CALC Belfast 2025**](https://osf.io/4hfbx){:target="_blank"}, this [**demonstration video**](https://youtu.be/_VZ4_FY_Nqo){:target="_blank"} and [**interactive example**](https://jl4.legalese.com/?id=8831700c-a1ee-4c21-9365-1aa410a977d0){:target="_blank"} and [**instructions**](https://osf.io/adwe6){:target="_blank"} for how a legislative drafter can put a draft provision into the **interactive, free, web-based** (no downloading needed) [**visualiser**](https://jl4.legalese.com/){:target="_blank"} that our Singapore colleagues built for us. 
 - The slides and video show how a **legislative drafter can produce** an if-then version of a draft provision, which can be automatically converted into L4 to produce a flowchart-like logical map that a reader can interact with to guide them through the legislation. This limited use of L4 is a way in which legislative drafters, with no technical knowledge (just the grammar, logic and paragraphing that they use every day), can produce working code that they and their policy officers could use to check drafts. That helps drafters to picture the potential benefits of using a fuller system - elsewhere on the same site you can see examples of L4 being used more fully, including for [Jersey's Charities Law](https://github.com/smucclaw/l4-ide/blob/ian/je-charities-3/jl4/experiments/jerseyCharities2.l4){:target="_blank"}.
-- For more on this see [our slides for RaC Guild Sept 2025](https://osf.io/axydq){:target="_blank"} (or [here](https://docs.google.com/presentation/d/1MRs8hJY45ptGslava2WvQGvPlhp9sp59l1NbNU5ruYk/edit?usp=sharing){:target="_blank"}), & [our Substack **post**](https://substack.com/@digitallegislation/p-171875282){:target="_blank"} (& earlier [**report**](https://osf.io/x43td){:target="_blank"}). 
+- For more on this see [our slides for RaC Guild Sept 2025](https://osf.io/axydq){:target="_blank"} (or [here](https://docs.google.com/presentation/d/1MRs8hJY45ptGslava2WvQGvPlhp9sp59l1NbNU5ruYk/edit?usp=sharing){:target="_blank"}), [our slides for LVI2025 Sydney](https://osf.io/bryxa){:target="_blank"} & [our Substack **post**](https://substack.com/@digitallegislation/p-171875282){:target="_blank"} (& earlier [**report**](https://osf.io/x43td){:target="_blank"}). 
+
+## Tool for definitions - pop-ups and links from defined expressions
+
+In separate but related work, we are developing a tool to enable drafters in Jersey to add mark-up to generate pop-ups from defined terms, to show the text of the definition with a link back to wherever the definition provision sits. This is an initial spin-off from the idea of creating a **unique identifier for each paragraph** of text in legislation, which is computer-readable but also makes sense to human readers (see below). 
+* Jersey's Legislative Drafting Office, like many others in the Commonwealth, still uses Word (rather than XML, used by larger offices). So our [innovator](https://www.youtube.com/watch?v=fThIGAABLyg){:target="_blank"} and Word-wrangler, Kate Hannah, has been developing a Word version of the IDs with a Word tool to enable legislative drafters to use the IDs to mark up each definition and defined term, so that the definition pops up when you move the mouse over it, with a link to the definition provision. The drafters are now testing a beta version that tool and demonstrating the results to policy officials, with good feedback and hopes for a full roll-out if possible.
+* The tool enables drafters to apply apply the pop-ups and links for definitions from within the same piece of legislation (we have noticed that [Kenya’s planned new site](https://new.kenyalaw.org/akn/ke/act/2022/29/eng@2022-07-29){:target="_blank"} will do this).
+* But the drafters also use this tool to reveal the definitions in the [**Interpretation Law**](https://www.jerseylaw.je/laws/current/l_17_1954){:target="_blank"} (or equivalent Interpretation Act in other Commonwealth jurisdictions).
+* They also use it to reveal the definitions that flow down into subsidiary legislation from the legislation under which the subsidiary is made, under [Art 10 Interpretation Law](https://www.jerseylaw.je/laws/current/l_17_1954#_Toc181820358){:target="_blank"} (most Commonwealth jurisdictions have an equivalent).
+* Many readers of a piece of legislation would otherwise be left completely unaware of either of these additional sources of definitions.
+* The pop-ups and links then feed automatically from the Word drafts into the html and pdfs for our web pages, so we are hoping the tool will pass its testing and be able to be rolled out for both legislative propositions for debate in the Assembly and enacted legislation on JLIB. For more on this see our [Substack article](https://digitallegislation.substack.com/i/158221711/using-hyperlinks-more-fully-ids-x-refs-definitions){:target="_blank"}.
+
+![A screenshot of pop-ups and links for defined terms](/images/DefinitionPopups.jpg)
+
+### Manual v automatic
+An important feature of this is that legislative drafters are applying the definition markup to each new instance of the defined term while they are drafting the legislation, rather than having an automatic system apply it afterwards. We believe this additional effort should pay for itself. 
+
+- Several of the Legal Information Institutes in other countries (the equivalent of JLIB, but publishing unofficial versions of legislation) have used **automated** tools to go back over a country’s entire existing statute book and apply pop-ups and links from defined terms to their corresponding definitions. This is clearly of some benefit in an unofficial version of the legislation, if it comes with a large health warning.
+- The main problem is that an automated system picks up many **false positives** – words in the text that match the defined term but that a human reader would realise are not really instances of that term. If this is being done across the whole statute book it is not going to be practical to have a human expert then check every marked up word to see if the markup should be removed.
+- Similarly, there may be a problem of **false negatives** in that definitions are usually meant to cover grammatical variations of the defined term, such as “registration” and “register” (Jersey has that rule in Article 2(c) of our Interpretation Law). That means the automated system has to use a highly sophisticated search which catches the additional forms of the word without worsening the false positive problem.
+- Even if technical solutions can be found for both those issues, there is still an **underlying legal problem** that cannot be fixed automatically. That is that in older legislation, still on the statute books, there will be **mistakes** where the defined term has been inadvertently used in a different sense. That reflects the fact that, in the days of handwriting on paper before Word search and systematic checking, drafters could not be sure they had used defined terms correctly even in a fresh draft. That was why definition provisions used to start with “In this Law, unless the context otherwise requires”, because that also served as an escape route for mistakes. In recent years Jersey’s Legislative Drafting Office has stopped using that wording because it is now reasonable to expect the drafter, helped by the checkers, to make sure defined terms are used properly in a new draft. The problem is that in the older legislation **only a court** could decide whether a questioned expression does attract the defined meaning – an **automated** system certainly cannot do that, and even a modern expert cannot claim certainty (usurping the court’s function). A modern drafter will be using this tool to help ensure those sorts of mistakes do not occur in today's drafts.
+
+It is, of course, **more work** to mark up each instance of a defined term manually, and the benefit is **more restricted** if it cannot be done for the whole existing statute book, but -
+- The **testing** being carried out by the Legislative Drafting Office on the tool is to see whether this manual markup is **practical** when done as part of the drafting process. So far the results seem positive, in that the effort is repaid by keeping the drafter alert to the definitions as they go along and helping reviewers to spot errors. The testing also identifies ways in which the tool might be refined to make the manual process as easy as possible.
+- If the tool can sensibly be rolled out into full use, so that the links appear in the published legislation, it will be on an **incremental** basis, in that it the links will only appear in new legislation (or older legislation that is re-enacted for the purpose). But that is very similar to our approach to “Rules as Code”, which we believe only gives its **full benefits** when applied during the drafting (and where Jersey might be a good fit for the incremental approach).
 
 
-### Wider idea of an "IDE" for legislative drafters
+## Wider idea of an "IDE" for legislative drafters
 
 We have an [**interactive mock-up** of some of the functions of an imaginary **tool**](https://crlp-jerseyldo.github.io/ilde-mockup/){:target="_blank"} for legislative drafters - please **try it out** (and see the [**explanations** in our newsletter](https://substack.com/@digitallegislation/p-149448484){:target="_blank"}).
 
@@ -38,14 +60,6 @@ We want to show legislative drafters how a possible tool could work to help them
 * We want **legislative drafters** to imagine an equivalent for them of the **"Integrated Development Environments"** that help programmers to code (ideally with a tool sitting inside our Word templates or XML editors). We want to avoid legislative drafters imagining we mean they have to draft their text first and then go back over it to mark it up.
 * In the longer term we would like to see **developers** create these drafting tools, starting with our basic spec. But for now we are just illustrating what a tool could look like, to set the ball rolling.
 
-As a part of this work, we are looking to enable drafters in Jersey to add mark-up to generate pop-ups from defined terms, to show the definition (with a link). This is an initial spin-off from the idea of creating a **unique identifier for each paragraph** of text in legislation, which is computer-readable but also makes sense to human readers (see below). 
-* Jersey's Legislative Drafting Office, like many others in the Commonwealth, still uses Word (rather than XML, used by larger offices). So our [innovator](https://www.youtube.com/watch?v=fThIGAABLyg){:target="_blank"} and Word-wrangler, Kate Hannah, has been developing a Word version of the IDs with a Word tool to enable legislative drafters to use the IDs to mark up each definition and defined term, so that the definition pops up when you move the mouse over it, with a link to the definition provision.
-* That can apply to definitions within the same piece of legislation (we have noticed that [Kenya’s planned new site](https://new.kenyalaw.org/akn/ke/act/2022/29/eng@2022-07-29){:target="_blank"} will do this).
-* But it can also apply to the definitions in the [**Interpretation Law**](https://www.jerseylaw.je/laws/current/l_17_1954){:target="_blank"} (or equivalent Interpretation Act in other Commonwealth jurisdictions). It can also apply to the definitions that flow down into subsidiary legislation from the legislation under which the subsidiary is made, under [Art 10 Interpretation Law](https://www.jerseylaw.je/laws/current/l_17_1954#_Toc181820358){:target="_blank"} (most Commonwealth jurisdictions have an equivalent).
-* It should then feed automatically from the Word drafts into the html for our web pages (& to a more limited extent into our automatically-produced pdfs for our website). For more on this see our [Substack article](https://digitallegislation.substack.com/i/158221711/using-hyperlinks-more-fully-ids-x-refs-definitions){:target="_blank"}.
-
-![A screenshot of pop-ups and links for defined terms](/images/DefinitionPopups.jpg)
-
 ## Building on related work
 
 ![A screenshot of a Python IDE offering help to a coder](/images/Python.png)
@@ -60,7 +74,7 @@ As a part of this work, we are looking to enable drafters in Jersey to add mark-
   * which in Jersey, where we have Articles instead of sections (& we have not gone for IDs for Parts, as they are not part of the numbering of actual provisions),  gives IDs like - “art_18_p_2_sp_b_cl_iii” – for [Art 18(2)(b)(iii)](https://www.jerseylaw.je/laws/current/l_41_2014#_Toc181797850){:target="_blank"}
   * see above for how we are building on this to give pop-ups for defined terms.
 
-## What would the imaginary tool do?
+## What would the imaginary full IDE-like tool do?
 * The tool would **help** the drafter to be **rigorous** in creating (and marking up for computer readability) -
   * **if-and-or-not** structures, 
   * **defined** terms (see the mock-up) and **repeated undefined** terms (which should have the same meaning each time), 
@@ -69,7 +83,7 @@ As a part of this work, we are looking to enable drafters in Jersey to add mark-
   * any standard adaptable provisions arising from "**Common Legislative Solutions**".
 * The idea would be to use **drop-down** lists of suggestions (& other help) to enable drafters to write consistently while the tool automatically marks up the text correctly (and possibly gives useful error messages when it detects an inconsistency).
 
-## Some examples of what the tool could do (as descriptions, but better seen in demos)
+### Some examples of what the tool could do (as descriptions, but better seen in demos)
 We are using the [**interactive mock-up**](https://crlp-jerseyldo.github.io/ilde-mockup/){:target="_blank"} (and supplementary static mock-ups) to demonstrate what we mean, given it is far easier to get the ideas across to the rest of the legislative drafting community that way. But we will also see if we can produce a **basic specification** that a developer could use as starting material, and we need to explain what we mean in text as well as through demos, so here is an attempt.
 
 One way for **legislative drafters** to think about it is just as doing something more than what (we hope) your **current** system already does for you. 
@@ -108,7 +122,7 @@ Or imagine you type "the Minster m" -
 
 Or imagine you want do something that is covered by **Common Legislative Solutions**, or you look like you are doing it, and you pick a menu or the tool pops up an offer to use the Jersey standard wording for that kind of provision, as well as marking it up.
 
-## Not just auto-complete - prompts help with "if" and "must" and other structures
+### Not just auto-complete - prompts help with "if" and "must" and other structures
 
 The tool would not use the sort of auto-complete in Word that irritates drafters by guessing what word you are going to use next. Instead, when you do something it recognises, it would offer a drop-down list, and allow you to you click on one of the choices (or ignore them). Nor is the tool just a glorified handler of a precedent bank.
 
