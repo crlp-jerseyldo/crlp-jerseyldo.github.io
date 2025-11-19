@@ -9,7 +9,7 @@ parent_url: /about/
 * TOC 
 {:toc}
 
-## What is Rules as Code?
+## What are the sorts of things people mean when they call their approach Rules as Code?
 
 Rules as Code (**RaC**) is essentially about **coding legislation**. But that is not the whole story. RaC is a movement or general idea rather than a specific tool, and the term is used by different people to cover a broad range of approaches which sometimes are not compatible with each other. 
 
