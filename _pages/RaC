@@ -1,0 +1,42 @@
+---
+layout: page
+title: What is Rules as Code?
+permalink: /about/RaC
+parent: About
+parent_url: /about/
+---
+
+* TOC 
+{:toc}
+
+## What is Rules as Code?
+
+Rules as Code (**RaC**) is essentially about **coding legislation**. But that is not the whole story. RaC is a movement or general idea rather than a specific tool, and the term is used by different people to cover a broad range of approaches which sometimes are not compatible with each other. 
+
+Some people use RaC to mean almost any effort to digitise the rules in any legislation (or even any government policy or regulator’s guidance). But that dilutes it to the point where it is the same as “computational law”, or even where it covers what all tax and social security departments have already been doing for decades with their computer programs. 
+
+But there are some common themes shared by most people who use the term, each of which forms a spectrum along which different people position their different takes on what they mean by RaC.
+* **Computer-readability** - Perhaps the most commonly agreed aspect is that the point of the coding or mark-up is seen as being so that in some way a computer can “read”, “consume” or even “execute”, some or most aspects of the legislation (the spectrum for this is from the computer just reading the if-then structures to guide a human reader, to the computer program producing compliance with the legislation directly, as in a social security program making an electronic bank transfer to pay a person’s benefits).
+* **Open publication** - People who use the expression RaC commonly also mean that the coding will be published in some way, to some degree and for some purposes. Some who have a strong tech focus will see this as an afterthought rather than a defining feature of RaC. Others see RaC as having a mission to enhance democracy, and believe open source principles and full publication will enable the public to comment more easily during policy formation and suggest changes after enactment. 
+* **Authoritative/explanatory** - The publication issue is also linked to the question of what authoritative or supplementary status the coding should have, which varies from saying it should be the official source of the law (from which expressions in English or other human languages can be automatically generated), through to seeing the human language version as still the one that is enacted, with the coded or marked-up version being merely explanatory (with no more legal force than any other official explanatory material).
+* **Before/after enactment** - Another common element, not as widely shared, is to see RaC as including the idea that the coding should, at least ideally, happen before the legislation is enacted. This was the approach taken in New Zealand, and then Australia, when the expression RaC was invented in 2018-19. But many of the people who now say they are working on RaC are focussed on the tech side and are most interested in finding efficient ways to code the large body of existing legislation, rather than focussing on new legislation. 
+* **Rules separated from operation** - Another common element, perhaps more widely shared but more rarely expressed, is the idea that RaC involves keeping the expression of the rules separate from the coding for the operational and procedural elements. Often this is in terms of using logic programming languages, such as Prolog, instead of traditional programming languages, such as Python. This is partly also intended to make updating a program easier when the legislated rules are changed - so that the new rule can be fed in to the program (potentially automatically through an “API”) without having to write the whole program from scratch again or work out which bits of the program depended on the old rule.
+
+## How does CRLP see Rules as Code?
+
+Our idea of RaC is that it is more specifically about -
+* digitising at least the **logical structure** of **new** legislation while the policy is being formulated and the legislation is being drafted (when any mistakes that are uncovered can still be corrected, because the legislation has not yet been enacted); and 
+* then **publishing** that digitised element in tandem with publishing the legislation, but with only **explanatory** status. 
+
+We take a view at the **low** end of the spectrum on how much should be coded, to what level of sophistication, and so for what purposes -
+* To us the digitisation can be as little as re-casting the English text (or marking it up) into a form in which a computer can read its **if-then** logical structure of conditions linked by “and”, “or” and “not”. 
+* We see the purpose as being both to help people to **read** the proposed legislation and **check** its effect on particular scenarios, and to form a **shared reliable base** that other people can use to code the legislation in more depth for their own purposes (instead of having to make their own guesses about the logical structure).
+* We do **not** see the whole or main purpose as being to enable the legislation to be automatically “**executed**” to achieve compliance with it. But we do see a key element of RaC as being to enable an automated system to **guide a human decision-maker** to the right question that they need to decide in order to work out how the legislation (on its face) applies to a given set of facts, and then to the next right question, depending on the answer to the last one, and so on.
+* At this end, the coding is adding the minimum to what is **on the face of the text**, and is following the **principles** on which the legislative drafter wrote the text, so that the chances of a court disagreeing should be minimised. However, this is at the price of saying the the coding is only attempting to capture what is on the face of the legislation, **not** any of the **supplementary** material that is needed to be certain about a particular **individual’s** legal position. That means it does not attempt to capture case-law or general principles that are left implicit in Commonwealth legislation. For instance the legislation will say that a person who does a particular type of act commits an offence, but will not say on its face that a person under a certain **age** would not count as committing any offence, or that there are **general defences** of duress and so on. 
+
+But we see this as just the lowest end, at which a legislative drafting office would operate. We then see a set of **layers** built up from that low end, each in turn based on further **assumptions** that are each increasingly **vulnerable** to challenge in court. 
+* So a **government department** would take the basic if-then produced by the **drafting office** and add more coding to reflect its view of what the legislation means. Many tech folk talk of “government regulations” without spotting that legislation, even when made by the government, is for the courts to interpret not for the government (at least in Commonwealth countries as opposed to USA, although even there the doctrine of “Chevron deference” has been rolled back recently).  
+* Then an **independent regulator** might add further coding to reflect how it interprets the law and the guidance that it has issued.
+* Lastly a **business** or advice agency might add further coding to reflect how it sees that law and guidance, but also mixed with its own business rules or knowledge base and some operational elements, so that it can produce an executable program to carry on its business or support its advice. 
+
+The common example given is of the rules for **banks vetting customers**. The legislative drafting office could produce an if-then formalisaton of the legislation, which the sponsoring government department would use to produce a more fully coded version reflecting its view. Then the regulator would use that to add elements reflecting its guidance, codes of practice and so on. Finally each bank would want to obtain software that incorporates the legislation and guidance, along with its business rules, and can be executed by its staff to handle taking on new customers. So the banks would commission developers to create that software by buidling on the published material from the drafting office, government department and regulator, to give the banks and developers more confidence that they were correctly capturing the rules that come from outside the bank.
