@@ -61,3 +61,16 @@ Particular progress has been made in **Canada**, where they have used [Blawx](ht
 A particularly active group now is the [**"RaC Guild"**](https://www.racguild.org){:target="_blank"} who have a very useful [set of videos](https://www.youtube.com/@RaCGuild){:target="_blank"} of their monthly "townhall" meetings where different groups from across the world present updates on their RaC work.
 
 For a set of links on the history of the wider "**computational law**" concept, see this [list](https://legalese.com/legalscape#smart-stats){:target="_blank"} and [this one](https://legalese.com/prior-art#formalising-regulations){:target="_blank"}, both from Legalese.
+
+## Other perspectives on RaC
+
+For **external** perspectives on RaC and related issues, see the work of Australian academics Dr Lisa Burton Crawford, Prof Lyria Bennett Moses and Dr Janina Boughey, particularly -
+* [Rules as code and the rule of law](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5184244){:target="_blank”}, Crawford, 2025
+* [Rules as code, the rule of law, and the problem of complex legislation](https://lawschoolpolicyreview.com/2025/02/07/rules-as-code-the-rule-of-law-and-the-problem-of-complex-legislation/){:target="_blank”}, Crawford, 2025
+* [Automated Information about the Law](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5145525){:target="_blank”}, Crawford & Boughey, 2025
+* [Rules as Code: Digital Rulemaking in the 21st Century](https://allenshub.unsw.edu.au/news/rules-code-digital-rulemaking-21st-century){:target="_blank”}, Moses & Parnaby, 2021
+* Laws for Machines and Machine-made Laws, Moses, Boughey, Crawford, 2021, (not available online - chapter in [The Automated State Implications, Challenged and Opportunities for Public Law](https://federationpress.com.au/product/the-automated-state/){:target="_blank”})
+* [From Rule of Law to Statute Drafting: Legal Issues for Algorithms in Government Decision-Making](https://classic.austlii.edu.au/au/journals/UNSWLRS/2019/30.html){:target="_blank”}, Zalnieriute, Crawford, Boughey, Moses & Logan, 2019 
+
+For a perspective more **opposed** to RaC, see the work of [COHUBICOL](https://www.cohubicol.com){:target="_blank”} led by [Mireille Hildebrandt](https://en.wikipedia.org/wiki/Mireille_Hildebrandt){:target="_blank”} (author of the free online book [Law for Computer Scientists and Other Folk](https://www.cohubicol.com/assets/uploads/law_for_computer_scientists.pdf){:target="_blank”}. In particular see -
+* Laurence Diver - [The impact of code-driven legal technologies](https://publications.cohubicol.com/research-studies/computational-law/chapter-3/){:target="_blank”} (Laurence later came to work as one of the assistants in CRLP's team, and set up this website among other valuable contributions)
