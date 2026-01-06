@@ -1,0 +1,40 @@
+---
+layout: page
+title: What is Legislative Drafting?
+permalink: /about/legislative-drafting
+parent: About
+parent_url: /about/
+---
+
+* TOC 
+{:toc}
+
+## What is legislative drafting?
+
+### Legislative drafting in the Commonwealth
+
+The CRLP is an initiative of **Jersey’s [Legislative Drafting Office](https://www.gov.je/Government/NonexecLegal/StatesGreffe/LegislativeDraftingOffice/Pages/index.aspx){:target="_blank"}**. What we bring to Rules as Code and computational law is the particular perspective we have gained from our experience of legislative drafting. In Jersey and other Commonwealth countries and territories, legislative drafting is the process of taking **policy** instructions and turning them into a draft of **workable legislation** for a particular legal system. 
+* Legislative drafters do *not* make up the policy that is embodied in the draft legislation. We are given the initial policy in “**drafting instructions**” from government politicians, developed by civil servants. Some legislative drafting offices (including Jersey’s) also draft for backbench members of the parliament (who might or might not be helped by clerks of the parliament).
+* Legislative drafting is *not* a question of just writing down the policy, and it does not involve translating plain English policy into “legalese”. It is an **iterative** process in which the drafter analyses and questions the detail of the policy, points out what can and cannot be achieved legally, and suggests different ways in which workable legislation could achieve the policy aims. The draft legislation needs to work in the **context** of the existing legislation, constitution and other law of that country. The process may go through several drafts as the drafter goes back and forth with policy officials or politicians whose policy **evolves** in response to the drafter’s questions.
+* Throughout the **Commonwealth** of Nations there is a broadly shared approach that is taken by professional drafting offices (which is different from the approach in USA and Europe). The modern Commonwealth style of drafting is set out in the [**Commonwealth Legislative Drafting Manual**](https://www.thecommonwealth-ilibrary.org/index.php/comsec/catalog/book/873){:target="_blank"}, and the [**Commonwealth Association of Legislative Counsel** (CALC)](https://thecommonwealth.org/organisations/commonwealth-association-legislative-counsel-calc){:target="_blank"} promotes cooperation in legislative drafting and training. For links to more information on this, see this 2022 [blog post](https://legislativedrafter.wordpress.com/2022/03/14/publicly-available-information-about-legislative-drafting/){:target="_blank"}. In recent decades legislative drafters in the Commonwealth have taken care to draft in **plain English**, but each country’s current “statute book” (all of the country’s current legislation, taken together) still contains legislation drafted **long ago** when the style was obscure. Even with plain English, the legislation can only be as simple as the **policy** that it gives legal effect to. 
+* The modern Commonwealth style of legislative drafting is very much more **disciplined** and rigorous than in the past (and more so than in other countries where drafting is not centralised and professionalised). It has useful similarities to a [“**controlled natural language**”](https://ceur-ws.org/Vol-622/paper8.pdf){:target="_blank"}, where English is used in a way that is consistent enough for a computer to be able to treat as code. A useful example is “**Logical English**”, created by [Prof Kowalski](https://www.doc.ic.ac.uk/~rak/){:target="_blank"} who credits well-written legislation as an inspiration (see [this paper](https://popl22.sigplan.org/details/prolala-2022-papers/9/Logical-English-as-a-Programming-Language-for-the-Law){:target="_blank"} and [this one](https://link.springer.com/chapter/10.1007/3-540-55930-2_15){:target="_blank"}). Another example is [**RegelSpraak**](https://aclanthology.org/2021.cnl-1.6.pdf){:target="_blank"} which the government of the Netherlands uses for tax rules.
+
+![A screenshot of the Commonwealth Legislative Drafting Manual](/images/CwlthDftgManual2.png)
+
+![A screenshot of the drafting manuals page of the Commonwealth Association of Legislative Counsel](/images/CALCmanuals.png)
+
+### Legislative drafting in Jersey
+
+In Jersey the [**Legislative Drafting Office**](https://www.gov.je/Government/NonexecLegal/StatesGreffe/LegislativeDraftingOffice/Pages/index.aspx){:target="_blank"} is part of the States Greffe, which serves the [States Assembly](https://statesassembly.je/){:target="_blank"} (Jersey’s parliament). The Legislative Drafting Office is a team of lawyers and legislation editors who draft and publish all of Jersey’s legislation. 
+* Article 19 of the [Legislation (Jersey) Law 2021](https://www.jerseylaw.je/laws/current/l_8_2021){:target="_blank"} sets out the primary objective of the Legislative Drafting Office as “**to produce high-quality legislation that can be easily understood and is readily accessible to all persons**”. 
+* Article 20 requires the Principal Legislative Drafter to take steps “**to promote access to Jersey legislation, including ensuring that it is clearly and logically organised, easy to understand, certain in its effect and as far as practicable conforms with current drafting practice**”.
+
+Legislative drafters in Jersey receive “drafting instructions” from Ministers, developed by civil servants. Occasionally we draft for backbench Assembly members, who are helped by a team in the States Greffe to develop their policy instructions for us. We take the parts of the policy that require a legislative change and express those in a way that is legally workable and fits in with all of the rest of [Jersey’s current legislation](https://www.jerseylaw.je/laws/){:target="_blank"}), our constitutional arrangements (including the relationship with the UK), and Jersey’s customary law. We draft in the modern Commonwealth style, but adapted for Jersey as set out in our [**Current Drafting Practice**](https://www.gov.je/SiteCollectionDocuments/Crime and justice/Current Drafting Practice.pdf){:target="_blank"}. We are also active members of the [Commonwealth Association of Legislative Counsel (CALC)](https://thecommonwealth.org/organisations/commonwealth-association-legislative-counsel-calc){:target="_blank"}.
+
+The Legislative Drafting Office's **editorial and technology team** publishes Jersey legislation through the [Jersey Legal Information Board](https://www.jerseylaw.je/Pages/default.aspx){:target="_blank"}. This means that all **current** Jersey law is available to the public free of charge, updated **as soon as** it is amended, as part of JLIB’s commitment as a member of the [Free Access to Law Movement](http://www.fatlm.org/){:target="_blank"}. 
+
+The Legislative Drafting Office is a leader in the use of technology (particularly in publishing continually up to date official versions of legislation). But we, along with all other drafting offices, have inherited problems from the days of paper. One of the main problems is that the reader of a piece of legislation is *not* pointed to the **definitions** in that legislation, nor to the definitions and other principles in the [**Interpretation** (Jersey) Law 1954](https://www.jerseylaw.je/laws/current/l_17_1954){:target="_blank"} and elsewhere. We rely on those definitions and principles when deciding how to express something in legislation, and our readers need to be aware of them. So the Computer-Readable Legislation Project has been working on helping readers with that – see [our **definitions tool**](https://crlp-jerseyldo.github.io/work/an-ide-for-legislation#tool-for-definitions---pop-ups-and-links-from-defined-expressions){:target="_blank"}. 
+
+![A screenshot of the webpage of Jersey's Legislative Drafting Office](/images/LDO.png)
+
+![Jersey's Current Drafting Practice manual](/images/LDOCurrtDftgPract.png)
