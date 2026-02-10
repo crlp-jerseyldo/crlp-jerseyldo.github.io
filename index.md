@@ -10,7 +10,17 @@ For more, see [**About the project**](/about), [**Our work**](/work), and the [*
 
 **Latest news** - 
 
-See our new pages of **background info** about ["**Rules as Code**"](/about/rulesascode) and about [**legislative drafting**](/about/legislative-drafting).
+See our [**report**](https://statesassembly.je/getmedia/aded03e3-3f6e-4d70-ba2a-686df67dc1d3/R-24-2026.pdf){:target="_blank"} to [Jersey's Assembly](https://statesassembly.je/publications/assembly-reports){:target="_blank"} (also available through [our OSF site](https://osf.io/m4che){:target="_blank"}) setting out **our last 3 years of work**, published on 10 Feb 2026. It has chapters covering our work on -
+* Logic **visualiser** for an interactive map of the logical structure of a legislative provision;
+* Tools to mark up **definitions** (& help drafting generally);
+* Artificial intelligence (**AI**);
+* Non-technological **drafting guidance**;
+* Docassemble demo with “**Common Legislative Solutions**”; and
+* Making our work **freely accessible**.
+
+The report also has **background notes** on - legislative drafting; Rules as Code; automated decision-making; new v existing legislation; logic programming; and key concepts & agencies. It starts with a 4-page **summary**, and there is a [separate **1-page** executive summary](){:target="_blank"}. 
+
+Adapted from the report, see our new pages of **background info** about ["**Rules as Code**"](/about/rulesascode) and about [**legislative drafting**](/about/legislative-drafting).
 
 [**Download slides "Visualising legislative logic"**](https://osf.io/bryxa){:target="_blank"} for **LVI2025, Sydney, 13 Nov 2025** - [Law via the Internet conference](https://www.lvi2025.org/program/){:target="_blank"} (and Free Acces to Law Movement).
 
