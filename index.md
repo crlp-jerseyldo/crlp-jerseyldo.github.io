@@ -18,7 +18,7 @@ See our [**report**](https://statesassembly.je/getmedia/aded03e3-3f6e-4d70-ba2a-
 * Docassemble demo with “**Common Legislative Solutions**”; and
 * Making our work **freely accessible**.
 
-The report also has **background notes** on - legislative drafting; Rules as Code; automated decision-making; new v existing legislation; logic programming; and key concepts & agencies. It starts with a 4-page **summary**, and there is a [separate **1-page** executive summary](){:target="_blank"}. 
+The report also has **background notes** on - legislative drafting; Rules as Code; automated decision-making; new v existing legislation; logic programming; and key concepts & agencies. It starts with a 4-page **summary**, and there is a [separate **1-page** executive summary](https://osf.io/5ne3c){:target="_blank"}. 
 
 Adapted from the report, see our new pages of **background info** about ["**Rules as Code**"](/about/rulesascode) and about [**legislative drafting**](/about/legislative-drafting).
 
