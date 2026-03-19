@@ -5,7 +5,7 @@
     {% seo title=false %}
     {% include meta.html %}
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/style.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/style.css?v={{ site.time | date: '%s' }}" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
