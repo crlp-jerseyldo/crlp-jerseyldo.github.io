@@ -31,11 +31,9 @@ It is really encouraging to see the range of people who have taken part in this 
 
 [LinkedIn](https://www.linkedin.com/in/qiutinsanleon/){:target="_blank"}
 
-Hello! I’m really excited to share a glimpse into my academic and professional journey that led me here at the CRLP. During my LL.B. at the University of Edinburgh, under the supervision of Scott Wortley for my dissertation, I delved into the complexities of law in our digital era. This experience was a turning point for me, as it illuminated the potential of technology to revolutionise traditional legal practices. I found a particular passion in exploring how legislation can be crafted and improved through technological tools, making the process more efficient and accessible.
+Hello! I work at the intersection of legislation, legal design and technology. My interest in this space grew out of studying law in Edinburgh and later exploring how legal rules, especially legislation, can be structured in ways that are clearer for humans and more usable for machines.
 
-It was around this time that I met Matthew, whose insights and enthusiasm deeply resonated with me. We have shared interests in the innovative area of Rule as Code – the concept of transforming legal rules into computer code to make laws more understandable and executable by machines. This approach has the potential to bridge the gap between legal experts and the wider community, ensuring laws are interpreted consistently and applied more effectively.
-
-Joining the CRLP felt like a natural step in my quest to contribute to this evolving field. I’m keen on pushing the boundaries of how we think about and interact with legislation in the digital age, exploring ways technology can aid in drafting laws that are clear, precise, and adaptable to rapid societal changes.
+At CRLP, I am particularly interested in how computational methods, symbolic structure and generative AI can support legislative drafting without losing sight of clarity, precision and legal judgment. My work has included research on pattern-based approaches to legal design and on the use of AI in legislative contexts.
 
 ----
 
