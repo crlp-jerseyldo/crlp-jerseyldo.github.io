@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Resources
-permalink: /resources
+permalink: /resources/
 resource_groups:
   - name: 'Website''s own pages'
     slug: 'website-s-own-pages'
@@ -1881,6 +1881,9 @@ resource_groups:
         prototype_only: false
 ---
 
+* TOC
+{:toc}
+
 This page is a review inventory of the site's current public routes and linked URLs. It is intentionally comprehensive and not yet a curated public-facing directory.
 
 ## Summary
@@ -1896,34 +1899,34 @@ This page is a review inventory of the site's current public routes and linked U
 {% for group in page.resource_groups %}
 ## {{ group.name }}
 
-{% for entry in group.entries %}
-- **{{ entry.title }}**
-  URL: `{% if entry.url contains "http" %}{{ entry.url }}{% else %}{{ site.baseurl }}{{ entry.url }}{% endif %}`
-  Repo locations: {% for location in entry.repo_locations %}`{{ location }}`{% unless forloop.last %}, {% endunless %}{% endfor %}
-  Source pages/components: {% for source in entry.source_pages %}`{{ source }}`{% unless forloop.last %}, {% endunless %}{% endfor %}
-  {% if entry.prototype_only %}Prototype / mockup link.{% endif %}{% if entry.notes and entry.notes.size > 0 %}{% if entry.prototype_only %} {% endif %}Notes: {% for note in entry.notes %}{{ note }}{% unless forloop.last %} {% endunless %}{% endfor %}{% endif %}
-{% endfor %}
-
-{% endfor %}
-## Prototype / mockup links
-
-{% assign prototype_total = 0 %}
-{% for group in page.resource_groups %}
+<table>
+  <thead>
+    <tr>
+      <th>Link</th>
+      <th>Repo location</th>
+      <th>Page location</th>
+    </tr>
+  </thead>
+  <tbody>
   {% for entry in group.entries %}
-    {% if entry.prototype_only %}{% assign prototype_total = prototype_total | plus: 1 %}{% endif %}
+    <tr>
+      <td>
+        <a href="{% if entry.url contains 'http' %}{{ entry.url }}{% else %}{{ site.baseurl }}{{ entry.url }}{% endif %}">{{ entry.title }}</a>
+        {% if entry.prototype_only %}<br><em>Prototype / mockup link.</em>{% endif %}
+      </td>
+      <td>
+        {% for location in entry.repo_locations %}<code>{{ location }}</code>{% unless forloop.last %}<br>{% endunless %}{% endfor %}
+      </td>
+      <td>
+        {% for source in entry.source_pages %}<code>{{ source }}</code>{% unless forloop.last %}<br>{% endunless %}{% endfor %}
+        {% if entry.notes and entry.notes.size > 0 %}
+          <br><em>Notes:</em>
+          {% for note in entry.notes %}{{ note }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}
+        {% endif %}
+      </td>
+    </tr>
   {% endfor %}
-{% endfor %}
+  </tbody>
+</table>
 
-Total prototype-only entries: **{{ prototype_total }}**
-
-{% for group in page.resource_groups %}
-  {% assign prototype_entries = group.entries | where: "prototype_only", true %}
-  {% if prototype_entries.size > 0 %}
-### {{ group.name }}
-
-  {% for entry in prototype_entries %}
-- **{{ entry.title }}**: `{% if entry.url contains "http" %}{{ entry.url }}{% else %}{{ site.baseurl }}{{ entry.url }}{% endif %}`
-  {% endfor %}
-
-  {% endif %}
 {% endfor %}
