@@ -7,6 +7,7 @@ parent_url: /work/
 ---
 
 **New - 17th July** - 
+
 If you have followed the QR code on the first slide of our presentation at **Singapore CALC Conference 2026** please see the *pdf version of the slides* **[Updating what we tell ourselves about the legislative sentence for the AI age](https://osf.io/w6d9n){:target="_blank"}**.
 
 One of the outputs of our project is **[non-technological guidance for legislative drafters](https://osf.io/vcmhp){:target="_blank"}** in Jersey’s Legislative Drafting Office and other drafting offices in the Commonwealth. We are working on expanding the material in the guidance, with a presentation at CALC 2026 in Singapore, probably submitting an article to the Loophole after the conference, and possibly publishing a book at some point later.
