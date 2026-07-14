@@ -10,7 +10,7 @@ For more, see [**About the project**](/about), [**Our work**](/work), and the [*
 
 **Latest news** - 
 
-See pdf version of slides **[Updating what we tell ourselves about the legislative sentence for the AI age](https://osf.io/w6d9n){:target="_blank"}** from Matthew's [presentation at Singapore CALC Conference](https://calc2026.agc.gov.sg/programme/presentations-panels/#40c2f23429d3b8be0c35017a6fe0dc22#1a7b8dba1307af4a74052c02b909313e){:target="_blank"}.
+See pdf version of slides **[Updating what we tell ourselves about the legislative sentence for the AI age](https://osf.io/w6d9n){:target="_blank"}** from Matthew's [presentation at Singapore CALC Conference](https://calc2026.agc.gov.sg/programme/presentations-panels/#1a7b8dba1307af4a74052c02b909313e)){:target="_blank"}.
 ![Draft of non-tech guidance](/images/SingaporeSlide1.JPG)
 
 See our [**report**](https://statesassembly.je/getmedia/aded03e3-3f6e-4d70-ba2a-686df67dc1d3/R-24-2026.pdf){:target="_blank"} to [Jersey's Assembly](https://statesassembly.je/publications/assembly-reports){:target="_blank"} (also available through [our OSF site](https://osf.io/m4che){:target="_blank"}) setting out **our last 3 years of work**, published on 10 Feb 2026. It has chapters covering our work on -
