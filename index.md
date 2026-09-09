@@ -10,7 +10,9 @@ For more, see [**About the project**](/about), [**Our work**](/work), and the [*
 
 **Latest news** - 
 
-See pdf version of slides **[Updating what we tell ourselves about the legislative sentence for the AI age](https://osf.io/w6d9n){:target="_blank"}** from Matthew's [presentation at Singapore CALC Conference](https://calc2026.agc.gov.sg/programme/presentations-panels/#1a7b8dba1307af4a74052c02b909313e)){:target="_blank"}.
+If you have followed the link from our presentation at the [**CIAJ-ICAJ Legislative Drafting Conference (Ottawa, Sept 2026)**](https://ciaj-icaj.ca/wp-content/uploads/events/2025/04/ciaj-icaj_program_2026-legislative-drafting-conf_en.pdf){:target="_blank"}, please see our [**slides on CRLP's work on AI and legislation**](https://osf.io/hwt9v){:target="_blank"} - the slides also contain further links that you can follow. If you have any questions on our AI work, please contact our volunteer [Leon Qiu](https://www.linkedin.com/in/qiutinsanleon/){:target="_blank"}.
+
+See pdf version of slides [**Updating what we tell ourselves about the legislative sentence for the AI age**](https://osf.io/w6d9n){:target="_blank"} from Matthew's [presentation at Singapore CALC Conference, July 2026](https://calc2026.agc.gov.sg/programme/presentations-panels/#1a7b8dba1307af4a74052c02b909313e)){:target="_blank"}.
 ![Draft of non-tech guidance](/images/SingaporeSlide1.JPG)
 
 See our [**report**](https://statesassembly.je/getmedia/aded03e3-3f6e-4d70-ba2a-686df67dc1d3/R-24-2026.pdf){:target="_blank"} to [Jersey's Assembly](https://statesassembly.je/publications/assembly-reports){:target="_blank"} (also available through [our OSF site](https://osf.io/m4che){:target="_blank"}) setting out **our last 3 years of work**, published on 10 Feb 2026. It has chapters covering our work on -
